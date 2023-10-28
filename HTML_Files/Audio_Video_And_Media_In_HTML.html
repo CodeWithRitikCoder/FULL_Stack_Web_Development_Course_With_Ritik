@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="This is my HTML Audio, Video and Media in HTML File for this Web-Development_Full_Course Series.">
+    <title>Audio, Video and Media in HTML</title>
+
+    <!-- this line of code is used to link the css file in the HTML File -->
+    <link rel="stylesheet" href="/Web-Development_Full_Course/CSS_Files/Id_And_Class_CSS.css">
+    <!-- This linke of code is used to add tab icon in the HTML file. -->
+    <link rel="tab icon" type="x-icon" href="/Web-Development_Full_Course/Image_Files/image1.jpg">
+</head>
+<body>
+    <h1 style="text-align: center;">Audio, Video and Media in HTML</h1>
+    <h1 style="text-align: center;">With Ritik</h1>
+                                                                                                                                                                                                              
+    <!--
+    => Audio, Video and Media in HTML.
+
+        1. Auido in HTML.
+            -> The <audio> tag is used to embed audio files in an HTML document. it also support mulitple attributes for control the audio playback.
+
+            -> Attributes for <audio> tag.
+                * src :- specifies the path to the audio file.
+                * controls :- Adds audio controls, like play, pause, volume and so on...
+                * autoplay :- Automatically starts playing the audio when the page loads.
+                * loop :- Repeats the audio once it ends.
+                * muted :- Mutes the audio by default.
+                * preload :- Specifies if and how the audio should be loaded when the page loads('auto', 'metadata', none)- bydefault node.
+
+                -> The 'preload' attribue can hove the following values:
+                    1. none :- This is the default value. It indecates that the browser should not preload the audio file at 
+                        all. The audio file will only start downloading. when the user indiates playback.
+                    2. metadata :- This value tells the browser to preload only the metadata of the audio file, such as its     
+                        duration and basic information about the audio. This can be useful if you want to display the audio duration to the user without fully loading the audio data.
+                    3. auto :- This value instructs the browser to preload the entire audio file as much as possible without 
+                        delaying the loading of other important page content. the browser will try to load the audio file in the background so that it's ready to play when the user decides to start it.
+
+        2. Video in HTML.
+            -> The <video> tag is used to embed video files in an HTML document. It supports multiple attributes to control the video playback.
+
+            -> Attributes for <video> tag.
+                * src :- specifies the path to the video file.
+                * controls :- Adds video controls, like play, pause, volume and so on...
+                * autoplay :- Automatically starts playing the video when the page loads.
+                * loop :- Repeats the video once it ends.
+                * muted :- Mutes the video by default.
+                * poster :- Specifies an image to be displayed before the video starts playing.
+                * Width and height :- Specifies the dimensions of the video.
+      
+    -->
+    
+    <!-- audio tag in HTML -->
+    <div align="center">
+        <audio src="/Web-Development_Full_Course/Audio_Files/audio1.mp3" controls muted></audio>
+    </div>
+
+    <!-- video tag in HTML -->
+    <div align="center">
+        <video src="/Web-Development_Full_Course/Video_Files/video1.mp4" controls width="400" poster="/Web-Development_Full_Course/Poster_Files/poster1.png"></video>
+    </div>
+
+    <!-- svg image in HTML -->
+    <svg xmlns="http://www.w3.org/2000/svg" height="100" width="100">
+        <circle cx="50" cy="50" r="40" stroke="black" stroke-width="5" fill="yellow" />
+    </svg>
+    <br>
+
+    <!-- iframe tag in HTML - it is used to embed website and youtube videos and so on... -->
+    <iframe src="https://www.codewithharry.com/" frameborder="0" width="600" height="600"></iframe>
+
+    <!-- embeding youtube video -->
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/c3u5XuLJ5Gg?si=m8X2G6ndoAxj9j-I&amp;start=21" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+    <!-- This line of code is used to linke the JavaScript_Files in the HTML File. -->
+    <script src="/Web-Development_Full_Course/JavaScript_Files/script2.js"></script>
+</body>
+</html>

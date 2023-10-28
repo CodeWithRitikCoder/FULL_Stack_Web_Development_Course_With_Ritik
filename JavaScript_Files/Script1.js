@@ -1,0 +1,1 @@
+alert("Welcome to Ritik's Web development course.")

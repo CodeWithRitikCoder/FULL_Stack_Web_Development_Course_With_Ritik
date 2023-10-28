@@ -1,0 +1,19 @@
+body{
+    background-color: red;
+}
+
+p{
+    background-color: aliceblue;
+}
+
+a{
+    background-color: rgb(55, 125, 190);
+}
+
+div{
+    background-color: yellow;
+}
+
+span{
+    background-color: aqua;
+}

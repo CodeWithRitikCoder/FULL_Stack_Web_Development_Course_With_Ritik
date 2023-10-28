@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="This is my HTML Forms and Input tags in HTML File for this Web-Development_Full_Course Series.">
+    <title>Forms and Input tags in HTML</title>
+
+    <!-- this line of code is used to link the css file in the HTML File -->
+    <link rel="stylesheet" href="/Web-Development_Full_Course/CSS_Files/Style1.css">
+    <!-- This linke of code is used to add tab icon in the HTML file. -->
+    <link rel="tab icon" type="x-icon" href="/Web-Development_Full_Course/Image_Files/image1.jpg">
+</head>
+<body>
+    <h1 style="text-align: center;">Forms and Input tags in HTML</h1>
+    <h1 style="text-align: center;">With Ritik</h1>
+
+    <!--
+    => Forms and Input tags in HTML.
+    -->
+
+    <!-- Form tag in HTML -->
+
+    <h2>* Here I am using Form tags in HTML</h2>
+
+    <h3>Form to apply for Web development course - with Ritik.</h3>
+    <form action="post">
+        
+        <div>
+            <label for="name">Name : </label>
+            <input id="name" type="text" name="name" placeholder="Enter your name" autofocus required">
+        </div>
+        <br>
+
+        <div>
+            <label for="password">Password : </label>
+            <input type="password" id="password" name="password" placeholder="Enter Password Here">
+        </div>
+        <br>
+
+        <div>
+            <label for="email">Email : </label>
+            <input type="email" id="email" name="email" placeholder="Enter Email Here">
+        </div>
+        <br>
+
+        <div>
+            <label for="date">Data : </label>
+            <input type="date" id="date" name="date">
+        </div>
+        <br>
+
+        <div>
+            <label for="phone">Phone No. : </label>
+            <input type="number" id="phone" name="phone" placeholder="Enter Phone No Here">
+        </div>
+        <br>
+
+        <div>
+            <input id="male" type="radio" name="gender" value="male">
+            <label for="male">Male</label>
+            <input id="female" type="radio" name="gender" value="female">
+            <label for="female">Female</label>
+        </div>
+        <br>
+
+        <div>
+            <input type="radio" id="hindi" name="language" value="hindi">
+            <label for="hindi">Hindi</label>
+            <input type="radio" id="english" name="language" value="english">
+            <label for="english">English</label>
+        </div>
+        <br>
+
+        <div>
+            <label for="Course">Course : </label>
+            <select name="course" id="course">
+                <option value="selectcourse">--- Select Course ---</option>
+                <option value="cprogramming">C Programming</option>
+                <option value="cppprogramming">C++ Programming</option>
+                <option value="javaprogramming">JAVA Programming</option>
+                <option value="mysqldatabase">MySQL Database</option>
+                <option value="webdevelopment">Web development</option>
+                <option value="appdevelopment">Android development</option>
+                <option value="iosdevelopment">IOS development</option>
+            </select>
+        </div>
+        <br>
+        
+        <div>
+            <input type="checkbox" id="subscribe" name="subscribe" value="yes" required>
+            <label for="subscribe">Subscribe to news letter</label>
+        </div>
+        <br>
+
+        <div>
+            <textarea name="comment" id="comment" cols="30" rows="5">Enter your comment here....</textarea>
+        </div>
+        <br>
+
+        <div>
+            <input type="submit" value="submit" name="submit">
+        </div>
+        <br>
+
+        <div>
+            <input type="reset" value="reset" name="reset">
+        </div>
+        <br>
+
+    </form>
+
+    <!-- This line of code is used to linke the JavaScript_Files in the HTML File. -->
+    <script src="/Web-Development_Full_Course/JavaScript_Files/Script2.js"></script>
+</body>
+</html>

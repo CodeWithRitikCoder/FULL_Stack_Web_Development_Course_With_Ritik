@@ -1,0 +1,66 @@
+____________________________________________________________________________________________________________________
+|                       ******** Block Elements (Most Commonly Used First) ********                                |
+|__________________________________________________________________________________________________________________|
+|                                                                                                                  |
+|    1->  <div>: A generic container for flow content.                                                             |
+|    2->  <p>: Paragraph.                                                                                          |
+|    3->  <h1>, <h2>, <h3>, <h4>, <h5>, <h6>: Headings.                                                            |
+|    4->  <ul>: Unordered list.                                                                                    |
+|    5->  <ol>: Ordered list.                                                                                      |
+|    6->  <li>: List item.                                                                                         |
+|    7->  <form>: A section containing form controls.                                                              |
+|    8->  <table>: Table.                                                                                          |
+|    9->  <section>: A standalone section of a document.                                                           |
+|    10->  <header>: A container for introductory content or a set of navigational links.                          |
+|    11->  <footer>: Footer of a section or page.                                                                  |
+|    12->  <nav>: A section of a page that contains navigation links.                                              |
+|    13->  <article>: A self-contained composition in a document.                                                  |
+|    14->  <aside>: A section of a page that contains information indirectly related to the main content.          |
+|    15->  <main>: The main content of a document.                                                                 |
+|    16->  <fieldset>: A set of form controls grouped under a common name.                                         |
+|    17->  <blockquote>: A block of text that is a quotation from another source.                                  |
+|    18->  <pre>: Preformatted text.                                                                               |
+|    19->  <canvas>: A container used to draw graphics via JavaScript.                                             |
+|    20->  <dl>: Description list.                                                                                 |
+|    21->  <dt>: Term in a description list.                                                                       |
+|    22->  <dd>: Description in a description list.                                                                |
+|    23->  <figure>: Any content that is referenced from the main content.                                         |
+|    24->  <figcaption>: A caption for a <figure> element.                                                         |
+|    25->  <address>: Contact information for the author or owner of the document.                                 |
+|    26->  <hr>: A thematic break or a horizontal rule.                                                            |
+|    27->  <tfoot>: Footer of a table.                                                                             |
+|                                                                                                                  |
+********************************************************************************************************************
+
+
+____________________________________________________________________________________________________________________
+|                       ******** Inline Elements (Most Commonly Used First) ********                               |
+|__________________________________________________________________________________________________________________|
+|                                                                                                                  | 
+|   1->  <a>: Anchor or hyperlink.                                                                                 |
+|   2->  <img>: Image.                                                                                             |
+|   3->  <span>: Generic inline container.                                                                         |
+|   4->  <input>: Input field.                                                                                     |
+|   5->  <label>: Label for a form element.                                                                        |
+|   6->  <strong>: Strong emphasis.                                                                                |
+|   7->  <em>: Emphasized text.                                                                                    |
+|   8->  <br>: Line break.                                                                                         |
+|   9->  <code>: Code snippet.                                                                                     |
+|   10->  <b>: Bold text.                                                                                          |
+|   11->  <i>: Italic text.                                                                                        |
+|   12->  <u>: Underlined text.                                                                                    |
+|   13->  <small>: Smaller text.                                                                                   |
+|   14->  <sub>: Subscript.                                                                                        |
+|   15->  <sup>: Superscript.                                                                                      |
+|   16->  <mark>: Marked or highlighted text.                                                                      |
+|   17->  <q>: Short inline quotation.                                                                             |
+|   18->  <cite>: Citation.                                                                                        |
+|   19->  <kbd>: Keyboard input.                                                                                   |
+|   20->  <samp>: Sample output.                                                                                   |
+|   21->  <var>: Variable in a mathematical expression or programming context.                                     |
+|   22->  <time>: Time.                                                                                            |
+|   23->  <abbr>: Abbreviation.                                                                                    |
+|   24->  <data>: Machine-readable translation of content.                                                         |
+|   25->  <acronym>: Acronym (Not supported in HTML5).                                                             |
+|                                                                                                                  |
+********************************************************************************************************************

@@ -5,7 +5,7 @@ FULL Stack Web Development Course With Ritik, and I will discuss in this couse H
 <p align="left">
 <a href="https://twitter.com/https://twitter.com/home" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" alt="https://twitter.com/home" height="30" width="40" /></a>
 <a href="https://linkedin.com/in/https://www.linkedin.com/feed/" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="https://www.linkedin.com/feed/" height="30" width="40" /></a>
-<a href="https://instagram.com/https://www.instagram.com/ritikcoder/" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="https://www.instagram.com/ritikcoder/" height="30" width="40" /></a>
+<a href="https://www.instagram.com/ritikcoder/" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="https://www.instagram.com/ritikcoder/" height="30" width="40" /></a>
 <a href="https://www.youtube.com/c/https://youtube.com/@ritikcoder" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/youtube.svg" alt="https://youtube.com/@ritikcoder" height="30" width="40" /></a>
 </p>
 <hr><hr>

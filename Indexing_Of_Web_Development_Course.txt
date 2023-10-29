@@ -22,3 +22,5 @@
 20-> Inline, Internal and External CSS.
 21-> CSS Selectors Master Class.
 22-> CSS Box Model - Margin_Padding_Borders.
+23-> CSS Fonts, Text and Color Properties.
+24-> Exercise-2 Write HTML and CSS code to style a Paragaraph inside a div which contains 2 other Paragaraphs. The first Paragaraph must have background color yellow and text color red. The other Paragaraph must have background color blue and text color white. The HTML is written below for your reference. -

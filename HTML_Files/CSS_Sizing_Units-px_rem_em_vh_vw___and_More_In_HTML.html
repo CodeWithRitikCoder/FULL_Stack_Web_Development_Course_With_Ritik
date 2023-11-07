@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="This is my HTML CSS Sizing Units-px_rem_em_vh_vw___and More in HTML File for this Web-Development_Full_Course Series.">
+    <title>CSS Sizing Units-px_rem_em_vh_vw___and More in HTML</title>
+
+    <!-- this line of code is used to link the css file in the HTML File -->
+    <link rel="stylesheet" href="/Web-Development_Full_Course/CSS_Files/Inline_Internal_And_External_CSS_In_HTML.css">
+    <!-- This linke of code is used to add tab icon in the HTML file. -->
+    <link rel="tab icon" type="x-icon" href="/Web-Development_Full_Course/Image_Files/my_image.png">
+
+    <!-- Internal CSS. for Div Tag. -->
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        html{
+            font-size: 12px;
+        }
+        .box{
+            box-sizing: border-box;
+            border: 2px solid purple;
+            /* width: 1920px; */
+            /* width: 100vw; */
+            width: 80vw;
+            margin: auto;
+            background-color: aquamarine;
+        }
+        .container{
+            box-sizing: border-box;
+            border: 2px solid purple;
+            /* width: 1920px; */
+            /* width: 100vw; */
+            width: 80vw;
+            /* height: 80vh; */
+            min-height: 80vh;
+            margin: 23px auto;
+            font-size: 18px;
+            background-color: aquamarine;
+        }
+        /* .container p{
+            font-size: 2em;
+        } */
+        .container p{
+            font-size: 2rem;
+        }
+        .myContainer{
+            box-sizing: border-box;
+            border: 2px solid purple;
+            margin: 23px auto;
+            color: rgb(0, 0, 0);
+            font-size: 22px;
+            width: 80vw;
+        }
+    </style>
+
+</head>
+<body>
+    <h1 style="text-align: center; color: black;">CSS Sizing Units-px_rem_em_vh_vw___and More in HTML.</h1>
+    <h1 style="text-align: center; color: black;">With Ritik</h1>
+    <hr><hr>
+
+        <!--  
+            => CSS Sizing Units-px_rem_em_vh_vw___and More in HTML.
+
+            => CSS Size
+                -> We’ve seen various units in CSS so far used for many different purposes; we did hit and trial to find the correct dimensions of that unit for our website. 
+
+                -> But now let’s understand how units work in CSS. 
+
+            => Absolute Units.
+                1-> cm - centimetres (1 cm = 37.8 px)
+                2-> mm - millimetres
+                3-> in - inches (1 in = 96 px = 2.54cm)
+                4-> pt - points (1pt = 1/72th of 1 in)
+                5-> pc - picas (1pc = 1/6th of 1 in)
+                6-> px - pixel (1px = 1/96th of 1 in)
+                *-> Generally we only use pixels to set dimensions of an element.
+
+            => Relative Units
+                1-> em - Relative to the font size of the parent element. Eg: 5em means the size would be 5 times the current font size.
+                2-> ex - Relative to X height of the existing font
+                3-> ch - Relative to the width/ radius of the character “0”.
+                4-> rem - Relative to the font size of the root element.
+                5-> vw - Relative to 1% of the width of the viewport. (Viewport is the area of the website visible to the user.)
+                6-> vh -  Relative to 1% of the height of the viewport
+                7-> % - Relative to the parent element’s size.
+
+            => Apart from this some of the other metrics used in CSS are- 
+                -> Opacity: Ranges from 0 to 1
+                -> RGB & RGBA values: 0 to 255
+                -> HSL & HSLA values: 0 to 360
+        -->
+
+    <center>
+        <br><br>Q
+        <img src="/Web-Development_Full_Course/Image_Files/my_image.png" alt="My Image" style="width: 200px;">
+        <br><br>Q
+    </center>
+    <div class="box">
+        This is a box
+    </div>
+    <div class="container">
+        <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Placeat est quis cum repellendus, veniam velit architecto blanditiis laudantium repellat doloribus rem non voluptates, nostrum tenetur eveniet expedita necessitatibus dolore quibusdam debitis dolorum iusto facere! Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci nesciunt, sint quae esse aut eos, ea vero enim perspiciatis deserunt, non sunt voluptatem porro dolore.
+        </p>
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptates, nesciunt. Voluptas modi qui molestiae? Voluptate eum, quidem nesciunt illo provident perferendis nam id nulla asperiores! Vero corporis explicabo accusantium illo odio delectus recusandae voluptatem, nulla quia soluta beatae quasi necessitatibus repellat hic voluptate repellendus reprehenderit a! Earum aliquam quas odio molestiae asperiores eveniet rerum nihil hic voluptatem velit doloribus accusantium qui blanditiis dolor iste sunt voluptatibus ab autem, eum nisi, maxime excepturi alias. Dolorum, illo sit! Porro sit, distinctio dolor vero quia blanditiis unde voluptas perspiciatis nemo nobis eius eaque error tempora excepturi quo deserunt similique facilis? Cum laudantium modi fugiat labore optio perspiciatis numquam, cupiditate facilis dolorum velit commodi quae voluptatum repudiandae magnam recusandae quasi culpa porro eos ratione assumenda nobis, quisquam hic! Eum atque magnam, praesentium sequi nostrum maiores! Facere a sequi quia, expedita qui consequatur! Ad nobis, expedita nam deserunt consectetur quos veritatis illo omnis, doloremque sed provident neque, perspiciatis maiores labore tenetur unde nemo in rerum. Pariatur distinctio suscipit optio itaque. Iure maxime voluptas atque cupiditate voluptatibus numquam praesentium consequatur pariatur voluptates? Consectetur nobis hic quis veritatis quam excepturi! Autem delectus aspernatur amet quia quaerat quisquam rem saepe libero suscipit consectetur accusamus recusandae, cumque deserunt, debitis eaque neque ipsam? Ducimus aliquid dolores, officiis molestiae neque maiores saepe odit pariatur debitis, id inventore reprehenderit illum tempora fugiat minus? Aperiam alias molestiae aut ipsam voluptatum, voluptatem totam qui neque doloribus ratione eum dolore ipsa harum est commodi id dolores, in quaerat libero laborum laboriosam recusandae reiciendis. Sequi consequuntur repellat magnam natus est dolore nulla rem. Modi voluptates magni iste. Tenetur velit, possimus quae labore error repellendus aperiam ab nesciunt laboriosam, corporis maxime fuga, facere minus veritatis odio! Eos sunt libero vitae soluta consequuntur, porro incidunt vel eaque error corporis commodi doloremque velit veritatis dolorem unde distinctio exercitationem minima qui enim sapiente delectus ipsum? Illum ullam, veritatis pariatur impedit itaque natus, excepturi perferendis necessitatibus molestiae neque provident veniam error consequatur earum inventore ducimus voluptate? Adipisci ipsam est laborum eaque obcaecati veniam sequi nisi quisquam eveniet labore corrupti iste magnam recusandae, sunt id officia iusto blanditiis facilis aperiam consectetur error temporibus aspernatur dolores! Maiores corporis iusto magnam eligendi et praesentium expedita nisi voluptatibus molestias ut ex quam sequi magni recusandae mollitia amet quos perferendis quidem neque, quasi veritatis cumque non at alias. Veritatis sed illum illo hic alias tenetur eum optio, impedit vitae, possimus laboriosam. Consectetur at quod doloremque? Perspiciatis voluptatum doloribus accusantium dolor maiores totam ullam consequuntur perferendis sint ea eaque, ipsum enim. Facere nulla voluptate quibusdam mollitia maxime soluta ad eaque eligendi nemo, laboriosam minima, tempore deleniti reiciendis exercitationem possimus nobis minus suscipit architecto illum ut dolor nam tenetur a accusantium. Suscipit excepturi iusto magnam, porro quisquam beatae. Temporibus corrupti a distinctio, suscipit labore eius, error ipsam, quaerat sit quo velit dolores iusto doloremque. Praesentium assumenda rerum, delectus velit illum ducimus esse ut quibusdam unde, similique iure obcaecati aspernatur hic quos maxime voluptates voluptatum accusantium minima quisquam facere ipsa dignissimos laboriosam quas. Voluptatibus quia quos esse omnis necessitatibus excepturi, eveniet iusto fuga, nobis tempora consectetur illum facilis quae? Fugiat dolorum deserunt omnis, quaerat minima nesciunt reiciendis. Ipsum possimus soluta saepe? Quis veniam praesentium quas nihil, fugit, aspernatur quos earum deserunt perspiciatis asperiores qui minus, totam omnis. Explicabo dicta quibusdam doloribus, magnam deserunt delectus repudiandae perferendis suscipit sequi eligendi totam saepe adipisci libero temporibus corporis iste rerum. Maxime odio magnam veniam quas itaque corporis rerum et veritatis alias reiciendis vel incidunt quidem enim deserunt debitis officiis aspernatur accusantium dolorem reprehenderit, quod deleniti, sunt obcaecati quo? Aspernatur, saepe qui, sunt ex eius ducimus pariatur voluptatum ullam porro excepturi tempora quos laboriosam in maxime veritatis. Quaerat et magnam praesentium, necessitatibus iste atque, dicta est quod architecto delectus, facilis molestiae dolorum dolorem quos? Id quod impedit nulla non, dignissimos, ullam tempore sit soluta dolorem labore adipisci maiores officiis! Ullam commodi excepturi sint incidunt. Eum repudiandae necessitatibus cumque corporis, molestias, veniam odio voluptatum optio esse, nam eligendi. Iure inventore impedit nihil quisquam tempore nobis quibusdam blanditiis rem ratione quas tempora debitis optio, nulla dolorum quos facilis libero nisi, sapiente officia laboriosam aliquam quidem. Et, quas nam laboriosam dolorem deleniti nobis, dignissimos voluptatum totam quisquam corrupti iste nihil assumenda atque deserunt alias accusamus ratione omnis neque commodi! Illum, aliquam est, quod nihil dolores odit facere quo ipsam labore soluta modi iusto cum atque dolor doloremque. Ipsa eius dolores laborum numquam quibusdam, aliquam iste voluptatibus eaque perferendis atque dolore amet ullam quidem rem deserunt asperiores qui soluta tempora nihil! Harum, deleniti quia? Aspernatur nulla velit ab fuga quaerat debitis totam, blanditiis iste eius nam voluptatum, tempora sit quam quas nesciunt nihil necessitatibus sed nisi commodi voluptatibus dolorem suscipit sapiente iure numquam. Nobis ad et nostrum corrupti culpa sint quidem esse voluptatem harum cumque tenetur, ipsa, iusto possimus. Voluptas veniam consequatur magni ipsam illo aut vel culpa ea sit nisi velit at, sed quidem nostrum eius et natus omnis laudantium amet officia minima quibusdam autem iure delectus. Beatae, quasi necessitatibus sint voluptatibus excepturi distinctio labore earum obcaecati totam iure minima optio a repellat, suscipit ipsa, tenetur nisi! Eum iure officiis quidem ipsa vero? Eius facere accusamus hic iste provident quaerat optio. Nemo incidunt earum accusantium laudantium eveniet reprehenderit labore. Placeat maxime molestiae nemo illo cum magnam aut aliquam id voluptate iste iusto aperiam fuga dicta culpa odio atque sint, consequuntur autem impedit odit exercitationem. Cumque doloribus ex blanditiis sed. Quos, magnam! Quam unde dolores atque adipisci? Ipsa cumque animi iste porro eos quia eum placeat blanditiis eius hic provident, necessitatibus soluta nobis laboriosam excepturi magni, unde veniam, velit quidem autem? Commodi saepe rem quos. Laboriosam error reiciendis ipsum ad repudiandae, architecto aliquam molestias est quo voluptas doloribus ea perspiciatis minus qui similique. Fuga ad asperiores ea molestiae debitis quidem obcaecati nihil dolorum, dignissimos exercitationem, sapiente ex facilis earum. Reiciendis, doloremque neque amet cum quam assumenda magnam asperiores quo laboriosam inventore id ad quod vitae totam facilis? Aperiam cumque praesentium, ad eius labore vel eos, rerum dignissimos omnis veniam blanditiis explicabo debitis impedit officia ratione quidem facilis tempore unde mollitia a minima! Harum, facilis deleniti natus quos numquam qui et dignissimos eligendi ratione magnam eius explicabo voluptatibus ipsa veritatis, sapiente officia consectetur laudantium illum commodi dolore quae omnis est at. Labore illo officia fuga, repellendus maiores dolorum architecto nihil deleniti provident omnis eveniet suscipit corporis aperiam, cupiditate velit dolores. Deleniti nihil voluptatum quos eos libero itaque vero facilis ex sequi. Rem itaque exercitationem modi tenetur eum commodi minima. Nostrum, modi harum enim soluta aliquam voluptate doloremque, totam numquam laborum, ab nihil? Facere doloribus ullam voluptate, distinctio, aut recusandae atque tempore pariatur quibusdam corporis magni tenetur, nostrum quae temporibus? Illo accusamus temporibus, dolorum laborum cumque, iure aspernatur odio qui optio rem fugiat eius sed dolores consectetur, dolore quibusdam nostrum adipisci velit! Architecto velit incidunt quisquam temporibus autem qui, ipsa illum minima impedit officia! Aspernatur dolor vero harum ratione laborum praesentium adipisci deleniti mollitia esse sit labore distinctio asperiores facere cum unde quidem consequuntur repudiandae dolore voluptate minima ducimus natus reiciendis, eius et! Voluptatem voluptate delectus mollitia, at reprehenderit incidunt quam eos quibusdam minus repellendus! Deserunt excepturi earum culpa. Nostrum nemo qui asperiores possimus tenetur doloremque eius impedit atque laudantium quos quibusdam reiciendis similique, dolorum perspiciatis accusantium provident cupiditate sit magnam ut dicta aut quas. Ullam inventore molestias velit laboriosam cumque consequuntur quas, est delectus. Minima nihil laboriosam exercitationem odit earum.
+    </div>
+    <div class="myContainer">
+        This is my Container
+    </div>
+
+    <!-- This line of code is used to linke the JavaScript_Files in the HTML File. -->
+    <script src="/Web-Development_Full_Course/JavaScript_Files/script2.js"></script>
+</body>
+</html>

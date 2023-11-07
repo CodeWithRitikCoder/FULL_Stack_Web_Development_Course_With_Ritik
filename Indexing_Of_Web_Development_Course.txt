@@ -13,7 +13,7 @@
 11-> Forms and Input Tags in HTML.
 12-> Inline & Block Elements in HTML. - with Comprehensive List.
 13-> Id & Classes in HTML.
-14-> Audio, Video and Media in HTML. - Media like as:- svg image, iframe online websites and youtube and other videos embeding.
+14-> Audio, Video and Media in HTML. - Media like as:- svg image, iframe online websites and youtube and other videos       embeding.
 15-> Semantic Tags in HTML.
 16-> Exercise-1 Pure HTML Media Player in HTML. -
 17-> HTML Entities, Code Tags and more on HTML.
@@ -24,3 +24,5 @@
 22-> CSS Box Model - Margin_Padding_Borders.
 23-> CSS Fonts, Text and Color Properties.
 24-> Exercise-2 Write HTML and CSS code to style a Paragaraph inside a div which contains 2 other Paragaraphs. The first Paragaraph must have background color yellow and text color red. The other Paragaraph must have background color blue and text color white. The HTML is written below for your reference. -
+25-> CSS Specificity and Cascade Algorithm in HTML.
+26-> CSS Sizing Units-px_rem_em_vh_vw___and More in HTML.

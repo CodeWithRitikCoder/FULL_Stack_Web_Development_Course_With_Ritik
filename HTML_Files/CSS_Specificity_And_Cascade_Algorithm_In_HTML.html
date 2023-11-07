@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="This is my HTML CSS Specificity and Cascade Algorithm in HTML File for this Web-Development_Full_Course Series.">
+    <title>CSS Specificity and Cascade Algorithm in HTML</title>
+
+    <!-- this line of code is used to link the css file in the HTML File -->
+    <link rel="stylesheet" href="/Web-Development_Full_Course/CSS_Files/Inline_Internal_And_External_CSS_In_HTML.css">
+    <!-- This linke of code is used to add tab icon in the HTML file. -->
+    <link rel="tab icon" type="x-icon" href="/Web-Development_Full_Course/Image_Files/my_image.png">
+
+    <!-- Internal CSS. for Div Tag. -->
+    <style>
+        h1{
+            color: aqua;
+        }
+        .yellow{
+            color: yellow;
+        }
+        .cpurple{
+            color: purple;
+        }
+        .cred{
+            color: red;
+        }
+
+        /* Attribute Selector */
+        [data-x=a]{
+            background-color: aqua;
+        }
+        h2:hover{
+            background-color: green;
+            color: yellow;
+        }
+    </style>
+
+</head>
+<body>
+    <h1 style="text-align: center; color: black;">CSS Specificity and Cascade Algorithm in HTML.</h1>
+    <h1 style="text-align: center; color: black;">With Ritik</h1>
+    <hr><hr>
+
+        <!--  
+            => CSS Specificity and Cascade Algorithm in HTML.
+                -> CSS Specificity helps determine what style will be applied to the HTML element(s) when there are overlapping or multiple CSS rules.
+                -> It is a value or weight assigned to a CSS selector. The higher the specificity, the more precedence the selector has.
+
+            => Let's consider the following code
+
+            => The Cascade Algorithm
+                -> CSS stands for Cascading Stylesheets. The cascade is the algorithm for solving conflicts where multiple CSS rules apply to an HTML element. It's the reason that the text of the button styled with the above CSS will be purple.
+                
+                -> Understanding the cascade algorithm helps you understand how the browser resolves conflicts like this. The cascade algorithm has 4 distinct stages.
+                    1-> Position and order of appearance: the order in which your CSS rules appear
+                    2-> Specificity: an algorithm that determines which CSS selector has the strongest match
+                    3-> Origin: the order in which CSS appears and where it comes from, whether that is a browser style, CSS from   a browser extension, or your authored CSS
+                    4-> Importance: some CSS rules are weighted more heavily than others, especially with the !important rule type
+                -> Lets look into all these one by one
+
+            => Effect of Position
+                -> If there are two rules that have selectors of identical specificity, the last one to be declared won. In an HTML page, you can add styles in different ways: through a <link> tag, a <style> tag, or directly in the element's style attribute. If you have one <link> tag at the top of your page and another at the bottom, the styles from the bottom one will be used. The same goes for <style> tags; the ones lower down on the page take priority.
+                -> An inline style attribute with CSS declared in it will override all other CSS, regardless of its position, unless a declaration has !important defined.
+                -> If the browser doesn't support a property, it is ignored!
+
+            => Specificity
+                -> CSS specificity determines which style rules get applied to an element when there are conflicts. Higher specificity means the style will be used. It's calculated based on a point system involving inline styles, IDs, classes, and tag names.
+
+            => Inline Styles
+                -> Inline styles have the highest specificity and will always override styles if other selector(s) are also defined.
+            
+            => ID Selector
+                -> The ID selector also has high specificity but comes after the inline Style specificity. So, if we have an ID and other selectors except the inline style, then the element will take the ID selector properties and values.
+
+            => Class and Attribute Selectors
+                -> Class selectors and attribute selectors have moderate specificity. Suppose the element has a class or attribute selector and not an inline style or ID selector, then the element will take properties and values from the class or attribute selector.
+
+            => Element Selector:
+                -> Element selectors like <p>, <div>, <a>, etc. have low specificity.
+
+            => Universal Selector:
+                -> Universal selectors (*) and combining selectors like not, first-child, and last-child have the lowest specificity.
+
+            => Inline Style > ID Selector > Class or Attribute Selector > Element Selector > Universal Selector
+
+            => Specificity Calculation
+
+                -> To calculate specificity, assign a value to each part of the selector:
+
+                *-> Universal Selector: 0
+                *-> Element selectors and pseudo-elements: 1
+                *-> Class selectors, attribute selectors, and pseudo-classes: 10
+                *-> ID selectors: 100
+                *-> Inline styles: 1000
+                *-> Then, add up the values of all the parts in the selector.
+
+            => Importance
+                -> The !important flag in CSS is used to give a particular style rule the highest level of importance, overriding any other competing styles. When you add !important to a CSS rule, it will take precedence over other rules affecting the same element, regardless of their specificity. For example, if you have:
+
+        -->
+
+    <h1 class="cpurple">
+        => Inline Style > ID Selector > Class or Attribute Selector > Element Selector > Universal Selector
+    </h1>
+    <div>
+        <h2 class="yellow cred cpurple">CSS Specificity.</h2>
+        <h2 class="yellow cred cpurple" data-x="a">CSS Specificity.</h2>
+    </div>
+
+    <!-- This line of code is used to linke the JavaScript_Files in the HTML File. -->
+    <script src="/Web-Development_Full_Course/JavaScript_Files/script2.js"></script>
+</body>
+</html>

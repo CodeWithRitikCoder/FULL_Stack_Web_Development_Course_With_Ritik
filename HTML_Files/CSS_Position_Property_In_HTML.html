@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="This is my HTML CSS Position Property in HTML File for this Web-Development_Full_Course Series.">
+    <title>CSS Position Property in HTML</title>
+
+    <!-- this line of code is used to link the css file in the HTML File -->
+    <link rel="stylesheet" href="/Web-Development_Full_Course/CSS_Files/Inline_Internal_And_External_CSS_In_HTML.css">
+    <!-- This linke of code is used to add tab icon in the HTML file. -->
+    <link rel="tab icon" type="x-icon" href="/Web-Development_Full_Course/Image_Files/my_image.png">
+
+    <!-- Internal CSS. for Div Tag. -->
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+        }
+        .box{
+            height: 433px;
+            width: 80vw;
+            padding: 3px;
+            margin: 3px;
+            border: 2px solid black;
+        }
+        .box1{
+            width: 100%;
+            height: 100px;
+            margin: 0;
+            padding: 0;
+            background-color: rgb(5, 111, 111);
+            /* position: absolute;
+            top: 0px; */
+            /* left: 0px; */
+            /* right: 10px; */
+            position: sticky;
+            top: 0px;
+        }
+        .box2{
+            background-color: purple;
+            /* position: relative;
+            top: 70px;
+            left: 40px; */
+            /* bottom: 30px; */
+            /* right: 20px; */
+            z-index: 1;
+        }
+        .box3{
+            background-color: yellow;
+            /* position: relative; */
+            /* z-index: 1; */
+            /* z-index: 0; */
+            position: fixed;
+            bottom: 0px;
+            left: 10vw;
+            height: 100px;
+        }
+        .box4{
+            background-color: #102437;
+        }
+        .parent{
+            padding: 43px;
+            margin: 34px;
+            border: 2px solid purple;
+            /* position: absolute; */
+
+            /* Exception: transform, filter, or perspective properties can also make an element appear as positioned */
+            /* transform: translate(0); */
+            /* filter: invert(0); */
+            /* perspective: 0em; */
+        }
+        .box3 h1{
+            text-align: center;
+            font-size: 80px;
+        }
+    </style>
+
+</head>
+<body>
+    <h1 style="text-align: center; color: black;">CSS Position Property in HTML</h1>
+    <h1 style="text-align: center; color: black;">With Ritik</h1>
+    <hr><hr>
+
+        <!--  
+            => CSS Position Property in HTML.
+
+            => CSS Positioning
+                -> The CSS positions allow you to precisely control the placement of an element on the web page.
+                -> It helps to determine how elements are placed inside the container element and how they interact with the other elements on the page.
+                -> There are various types of position property values, such as:
+
+            => Static(Default)
+                -> The elements are positioned according to the normal flow of the document.
+
+                    -> Syntax:
+                        selector {
+                            position: static;
+                        }
+
+            => Relative
+                -> Elements are positioned relative to the normal position in the document.
+                -> You can use the top, right, bottom, and left properties to move the element from its original position.
+
+                    -> Syntax:
+                        selector {
+                              position: relative;
+                        }
+
+            => Absolute
+                -> Elements are positioned relative to the closest positioned ancestor (parent), which means we need to have a parent element with a positioning other than 'static'.
+                -> Note: An absolutely positioned element is removed from the normal flow.
+
+            => Fixed
+                -> Elements are positioned relative to the viewport (screen) and do not move when the page is scrolled.
+                -> This is useful for creating elements like fixed headers or footers.
+
+            => Float
+                -> The float property is used to shift an element to the left or right within its containing element. For more details, follow CSS Float.
+
+            => Sticky
+                -> Position sticky is a hybrid between 'relative' and 'fixed'.
+                -> It allows an element to become "stuck" to the top or bottom of its container when scrolling, but it behaves like relative positioning within the container until it reaches a specified offset.
+
+                * Example:
+                        <head>
+                            <style>
+                                h1{
+                                    position: sticky;
+                                    top: 10px;
+                                    right: 20px;
+                                }
+                            </style>
+                        </head>
+                        <body>
+                            <h1>CodeWithHarry</h1>
+                        </body>
+                        </html>
+            
+        -->
+    
+    <div class="parent">
+        <div class="box1 box"></div>
+        <div class="box2 box"></div>
+        <div class="box3 box"><h1>My name is Ritik.</h1></div>
+        <div class="box4 box"></div>
+    </div>
+
+    <!-- This line of code is used to linke the JavaScript_Files in the HTML File. -->
+    <script src="/Web-Development_Full_Course/JavaScript_Files/script2.js"></script>
+</body>
+</html>

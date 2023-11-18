@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="This is my HTML CSS Display Property in HTML File for this Web-Development_Full_Course Series.">
+    <title>CSS Display Property in HTML</title>
+
+    <!-- this line of code is used to link the css file in the HTML File -->
+    <link rel="stylesheet" href="/Web-Development_Full_Course/CSS_Files/Inline_Internal_And_External_CSS_In_HTML.css">
+    <!-- This linke of code is used to add tab icon in the HTML file. -->
+    <link rel="tab icon" type="x-icon" href="/Web-Development_Full_Course/Image_Files/my_image.png">
+
+    <!-- Internal CSS. for Div Tag. -->
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .box{
+            border: 2px solid blue;
+            display: inline-block;
+            padding: 40px;
+            margin: 30px;
+            width: 330px;
+        }
+        .box2{
+            /* display: none; */
+            /* visibility: hidden; */
+        }
+    </style>
+
+</head>
+<body>
+    <h1 style="text-align: center; color: black;">CSS Display Property in HTML.</h1>
+    <h1 style="text-align: center; color: black;">With Ritik</h1>
+    <hr><hr>
+
+        <!--  
+            => CSS Display Property in HTML.
+                -> This property specifies and determines how an element would be displayed on the website. By tweaking the value of the display we can show the content “inline”, “grid”, “flex”, and whatnot.
+                
+            => Display Inline
+                -> It only takes the space required for content, leaving the rest space for other elements to come. Setting other dimension properties isn’t like width, height, margin or padding is not allowed in Inline Display.
+                i.g Syntax: 
+                        {display: inline;}
+                    
+            => Display Block
+                -> It takes the full width available across the website page leaving a new line before and after the element.
+                i.g Syntax: 
+                        {display: block;}
+                    
+            => Display Inline Block
+                -> This property is quite similar to inline but dimension properties are allowed in the case of the inline-block display.
+            
+            => Display None & Hidden
+                -> This property removes the element from the document, clearing the space taken by the element. When the display is hidden, though the element isn’t visible the space is still taken by the element.
+            
+        -->
+    <!-- MDM Reference link for this file. -->
+    <!-- https://developer.mozilla.org/en-US/docs/Web/CSS/display -->
+
+    <div class="box box2">
+        I am a box.
+    </div>
+    <div class="box">
+        I am alos a nice box.
+    </div>
+    <span>I am a good</span>
+    <span> boy.</span>
+
+    <!-- This line of code is used to linke the JavaScript_Files in the HTML File. -->
+    <script src="/Web-Development_Full_Course/JavaScript_Files/script2.js"></script>
+</body>
+</html>

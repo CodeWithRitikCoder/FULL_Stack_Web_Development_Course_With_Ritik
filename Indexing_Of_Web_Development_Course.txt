@@ -23,6 +23,13 @@
 21-> CSS Selectors Master Class.
 22-> CSS Box Model - Margin_Padding_Borders.
 23-> CSS Fonts, Text and Color Properties.
-24-> Exercise-2 Write HTML and CSS code to style a Paragaraph inside a div which contains 2 other Paragaraphs. The first Paragaraph must have background color yellow and text color red. The other Paragaraph must have background color blue and text color white. The HTML is written below for your reference. -
+24-> Exercise-2 Write HTML and CSS code to style a Paragaraph inside a div which contains 2 other Paragaraphs. The first Paragaraph must have background color yellow and text color red. The other Paragaraph must have background color blue and text color white. The HTML is written below for your reference.
 25-> CSS Specificity and Cascade Algorithm in HTML.
 26-> CSS Sizing Units-px_rem_em_vh_vw___and More in HTML.
+27-> CSS Display Property in HTML.
+30-> CSS Shadows And Outlines in HTML.
+31-> Styling Lists Using CSS in HTML.
+32-> CSS Overflow Property in HTML.
+33-> CSS Position Property in HTML.
+34-> Exercise-3 For CSS Practice In HTML.
+35-> CSS Variables in HTML.

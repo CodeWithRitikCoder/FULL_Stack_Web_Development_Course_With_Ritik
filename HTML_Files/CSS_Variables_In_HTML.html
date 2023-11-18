@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="This is my HTML CSS Variables in HTML File for this Web-Development_Full_Course Series.">
+    <title>CSS Variables in HTML</title>
+
+    <!-- this line of code is used to link the css file in the HTML File -->
+    <link rel="stylesheet" href="/Web-Development_Full_Course/CSS_Files/Inline_Internal_And_External_CSS_In_HTML.css">
+    <!-- This linke of code is used to add tab icon in the HTML file. -->
+    <link rel="tab icon" type="x-icon" href="/Web-Development_Full_Course/Image_Files/my_image.png">
+
+    <!-- Internal CSS. for Div Tag. -->
+    <style>
+        :root{
+            /* CSS Variables */
+            /* CSS variable can hold values, strings, numbers, size, padding, margin and etc. */
+            /* CSS variable are two types 1. local variable, 2. Global variable */
+            --color: rgb(78, 154, 132);
+            --seccolor: rgb(174, 174, 222);
+        }
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .nav{
+            background-color: var(--color);
+        }
+        ul{
+            display: flex;
+        }
+        ul li{
+            list-style: none;
+            padding: 20px;
+            border: 2px solid var(--seccolor);
+        }
+        ul li:first-child{
+            --color: rgb(255, 115, 0);
+            background-color: var(--color);
+        }
+        .container{
+            background-color: var(--seccolor);
+        }
+    </style>
+
+</head>
+<body>
+    <h1 style="text-align: center; color: black;">CSS Variables in HTML</h1>
+    <h1 style="text-align: center; color: black;">With Ritik</h1>
+    <hr><hr>
+
+        <!--  
+            => CSS Variables in HTML.
+
+                ->
+
+        -->
+    
+    <div class="nav">
+        <ul>
+            <li>Home</li>
+            <li>About</li>
+            <li>Contact</li>
+        </ul>
+    </div>
+
+    <div class="container">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo modi expedita deleniti perferendis reprehenderit labore odit ullam assumenda repellat consectetur autem incidunt aut deserunt aliquam eaque impedit, enim libero dolorem possimus officia in ipsum. Cupiditate architecto id rem. Vero vitae numquam adipisci corrupti beatae exercitationem!
+    </div>
+
+    <!-- This line of code is used to linke the JavaScript_Files in the HTML File. -->
+    <script src="/Web-Development_Full_Course/JavaScript_Files/script2.js"></script>
+</body>
+</html>

@@ -1,0 +1,31 @@
+body{
+    color: yellow;
+    background-color: #102437;
+}
+
+header nav ul li{
+    font-weight: 500;
+    list-style: none;
+    padding: 2px 10px 2px 10px;
+    border: 1px solid white;
+    border-radius: 30px;
+    margin-left: 10px;
+}
+header nav ul{
+    display: flex;
+}
+
+header nav ul li:hover{
+    background-color: yellow;
+    color: black;
+    box-shadow: 3px 4px 3px #6cdc09;
+}
+
+.navDiv img{
+    width: 30px;
+    height: 30px;
+}
+
+.navDiv{
+    display:  flex;
+}

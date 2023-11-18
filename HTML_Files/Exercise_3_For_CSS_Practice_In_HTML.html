@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="This is my HTML Exercise-3 For CSS Practice In HTML File for this Web-Development_Full_Course Series.">
+    <title>Exercise-3 For CSS Practice In HTML</title>
+
+    <!-- this line of code is used to link the css file in the HTML File -->
+    <link rel="stylesheet" href="/Web-Development_Full_Course/CSS_Files/Inline_Internal_And_External_CSS_In_HTML.css">
+    <!-- This linke of code is used to add tab icon in the HTML file. -->
+    <link rel="tab icon" type="x-icon" href="/Web-Development_Full_Course/Image_Files/my_image.png">
+
+    <!-- Internal CSS. for Div Tag. -->
+    <style>
+        .card{
+            border: 2px solid rgb(199, 184, 184);
+            width: 20%;
+            height:  600px;
+            padding: 10px;
+            border-radius: 15px;
+            box-shadow: 2px 5px 5px rgb(199, 184, 184);
+        }
+        .first img{
+            width: 100%;
+            border-radius: 15px;
+        }
+        .second{
+            margin-top: 15px;
+            margin-left: 20px;
+        }
+        span{
+            border: 2px solid rgb(199, 184, 184);
+            color: rgb(158, 115, 115);
+            padding-left: 10px;
+            padding-right: 10px;
+            padding-top: 2px;
+            padding-bottom: 2px;
+            border-radius: 50px;
+            font-weight: 500;
+        }
+        .third{
+            border: 2px solid #e0eeff;
+            border-radius: 50px;
+            background-color: #e0eeff;
+            color: blue;
+            width: 30%;
+            height: 40px;
+            margin-top: 20px;
+        }
+        h4{
+            text-align: center;
+            margin: 10px;
+            /* border: 2px solid pink; */
+        }
+        .card:hover{
+            box-shadow: 2px 6px 8px rgb(57, 220, 32);
+        }
+        
+    </style>
+
+</head>
+<body>
+    <h1 style="text-align: center; color: black;">Exercise-3 For CSS Practice In HTML</h1>
+    <h1 style="text-align: center; color: black;">With Ritik</h1>
+    <hr><hr>
+
+        <!--  
+            => Exercise-3 For CSS Practice In HTML.
+
+                -> Card.png is a file which contians a card Image. Write html and css to disign this card.
+
+        -->
+    
+    <div class="card">
+        <div class="first">
+            <img src="/Web-Development_Full_Course/Image_Files/image1.jpg" alt="Div image">
+        </div>
+        <div class="second">
+            <span>Nature</span>
+            <span>Lake</span>
+            <h2>Lago di Braies</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae debitis sapiente soluta laboriosam quod quos est quasi vero iusto mollitia!</p>
+        </div>
+        <center>
+            <div class="third">
+                <h4>Read More</h4>
+            </div>
+        </center>
+    </div>
+
+    <!-- This line of code is used to linke the JavaScript_Files in the HTML File. -->
+    <script src="/Web-Development_Full_Course/JavaScript_Files/script2.js"></script>
+</body>
+</html>

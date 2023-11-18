@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="This is my HTML Styling Lists Using CSS in HTML File for this Web-Development_Full_Course Series.">
+    <title>Styling Lists Using CSS in HTML</title>
+
+    <!-- this line of code is used to link the css file in the HTML File -->
+    <link rel="stylesheet" href="/Web-Development_Full_Course/CSS_Files/Inline_Internal_And_External_CSS_In_HTML.css">
+    <!-- This linke of code is used to add tab icon in the HTML file. -->
+    <link rel="tab icon" type="x-icon" href="/Web-Development_Full_Course/Image_Files/my_image.png">
+
+    <!-- Internal CSS. for Div Tag. -->
+    <style>
+        nav ul li{
+            list-style: "❤️";
+            background-color: yellow;
+            border: 2px solid blue;
+            list-style-position: inside;
+            /* list-style-image: url(/Web-Development_Full_Course/Image_Files/my_image\ -\ Compressed.png); */
+            /* list-style: disc inside url(/Web-Development_Full_Course/Image_Files/my_image\ -\ Compressed.png); */
+            list-style: none;
+            padding: 15px;
+            margin-left: 20px;
+            font-size: 200%;
+        }
+        nav ul{
+            display: flex;
+        }
+    </style>
+
+</head>
+<body>
+    <h1 style="text-align: center; color: black;">Styling Lists Using CSS in HTML</h1>
+    <h1 style="text-align: center; color: black;">With Ritik</h1>
+    <hr><hr>
+
+        <!--  
+            => Styling Lists Using CSS in HTML.
+
+            => CSS List Styles
+                -> Lists are a common element in web design used to prevent content from being un-organized. CSS allows you to style lists to match the design aesthetic and improve the readability of the web page.
+
+            => Unordered list styling
+                -> To style unordered lists (bulleted lists), we can change the list item marker.
+
+                    * Syntax:
+                        ul {
+                            list-style-type: value;
+                        }
+
+                -> The value can be
+                    * disc: (default) - Filled circle marker
+                    * circle: hollow circle marker
+                    * square: a filled square marker
+                    * None: No marker (remove bullets)
+
+            => Ordered Lists Styling
+                -> For ordered lists (numbered lists), we can cusromize the list item numbering.
+
+                    * Syntax:
+                        ol {
+                            list-style-type: value;
+                        }
+
+                -> The value can be any of the following:
+                    * decimal: (default) - Decimal numbers (1, 2, 3, etc.)
+                    * decimal-leading-zero: Decimal numbers with leading zeros (01, 02, 03, etc.)
+                    * lower-roman: lowercase Roman numbers (i, ii, iii,...)
+                    * upper-roman: uppercase Roman numbers (I, II, III,...)
+                    * lower-alpha: lowercase alphabetical letters (a, b, c, etc.)
+                    * upper-alpha: uppercase alphabetical letters (A, B, C, etc.)
+                
+            => List-style position
+                -> The 'list-style-position' property determines where the list markers (bullets or numbers) are placed in relation to the content.
+
+                -> It has two values:
+                    * inside: (default) List markers are inside the content's box. This is the default behaviour.
+                    * outside: List markers are outside the content's box, typically to the left of the content, creating a hanging indent effect.
+
+            => Removing the default list styles
+                -> To remove default list styles (bullets or numbers), set the 'list-style' property to 'none'.
+
+            => Custom List Style
+                -> To set a custom list style, set the 'list-style-type' to your new required custom style.
+            
+        -->
+
+    <nav>
+        <ul>
+            <li>Home</li>
+            <li>About</li>
+            <li>Contact</li>
+            <li>Login</li>
+            <li>SingUp</li>
+        </ul>
+    </nav>
+
+    <!-- This line of code is used to linke the JavaScript_Files in the HTML File. -->
+    <script src="/Web-Development_Full_Course/JavaScript_Files/script2.js"></script>
+</body>
+</html>

@@ -13,13 +13,30 @@
 
     <!-- Internal CSS. for Div Tag. -->
     <style>
-        .card{
+        .mainDiv{
+            display: flex;
+            margin: 20px;
+        }
+        .mainDiv:first-child .card{
+            height: 100px;
+        }
+        .card1{
             border: 2px solid rgb(199, 184, 184);
             width: 20%;
-            height:  600px;
+            height:  580px;
             padding: 10px;
             border-radius: 15px;
             box-shadow: 2px 5px 5px rgb(199, 184, 184);
+            margin-right: 20px;
+        }
+        .card2{
+            border: 2px solid rgb(199, 184, 184);
+            width: 20%;
+            height:  450px;
+            padding: 10px;
+            border-radius: 15px;
+            box-shadow: 2px 5px 5px rgb(199, 184, 184);
+            margin-right: 20px;
         }
         .first img{
             width: 100%;
@@ -44,8 +61,8 @@
             border-radius: 50px;
             background-color: #e0eeff;
             color: blue;
-            width: 30%;
-            height: 40px;
+            width: 35%;
+            height: 45px;
             margin-top: 20px;
         }
         h4{
@@ -53,7 +70,10 @@
             margin: 10px;
             /* border: 2px solid pink; */
         }
-        .card:hover{
+        .card1:hover{
+            box-shadow: 2px 6px 8px rgb(57, 220, 32);
+        }
+        .card2:hover{
             box-shadow: 2px 6px 8px rgb(57, 220, 32);
         }
         
@@ -71,10 +91,12 @@
                 -> Card.png is a file which contians a card Image. Write html and css to disign this card.
 
         -->
-    
-    <div class="card">
+
+    <!-- First Row of Card View -->
+    <div class="mainDiv">
+    <div class="card1">
         <div class="first">
-            <img src="/Web-Development_Full_Course/Image_Files/image1.jpg" alt="Div image">
+            <img src="/Web-Development_Full_Course/Image_Files/C Programming.png" alt="Div image">
         </div>
         <div class="second">
             <span>Nature</span>
@@ -88,6 +110,95 @@
             </div>
         </center>
     </div>
+
+    <div class="card1">
+        <div class="first">
+            <img src="/Web-Development_Full_Course/Image_Files/C++ Programming.png" alt="Div image">
+        </div>
+        <div class="second">
+            <span>Nature</span>
+            <span>Lake</span>
+            <h2>Lago di Braies</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae debitis sapiente soluta laboriosam quod quos est quasi vero iusto mollitia!</p>
+        </div>
+        <center>
+            <div class="third">
+                <h4>Read More</h4>
+            </div>
+        </center>
+    </div>
+
+    <div class="card1">
+        <div class="first">
+            <img src="/Web-Development_Full_Course/Image_Files/JAVA Programming.png" alt="Div image">
+        </div>
+        <div class="second">
+            <span>Nature</span>
+            <span>Lake</span>
+            <h2>Lago di Braies</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae debitis sapiente soluta laboriosam quod quos est quasi vero iusto mollitia!</p>
+        </div>
+        <center>
+            <div class="third">
+                <h4>Read More</h4>
+            </div>
+        </center>
+    </div>
+    </div>
+
+    <!-- Second Row of Card View -->
+    <div class="mainDiv">
+        <div class="card2">
+            <div class="first">
+                <img src="/Web-Development_Full_Course/Image_Files/MySQL Programming.bak.png" alt="Div image">
+            </div>
+            <div class="second">
+                <span>Nature</span>
+                <span>Lake</span>
+                <h2>Lago di Braies</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae debitis sapiente soluta laboriosam quod quos est quasi vero iusto mollitia!</p>
+            </div>
+            <center>
+                <div class="third">
+                    <h4>Read More</h4>
+                </div>
+            </center>
+        </div>
+    
+        <div class="card2">
+            <div class="first">
+                <img src="/Web-Development_Full_Course/Image_Files/Android App Development.png" alt="Div image">
+            </div>
+            <div class="second">
+                <span>Nature</span>
+                <span>Lake</span>
+                <h2>Lago di Braies</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae debitis sapiente soluta laboriosam quod quos est quasi vero iusto mollitia!</p>
+            </div>
+            <center>
+                <div class="third">
+                    <h4>Read More</h4>
+                </div>
+            </center>
+        </div>
+    
+        <div class="card2">
+            <div class="first">
+                <img src="/Web-Development_Full_Course/Image_Files/Web Development.png" alt="Div image">
+            </div>
+            <div class="second">
+                <span>Nature</span>
+                <span>Lake</span>
+                <h2>Lago di Braies</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae debitis sapiente soluta laboriosam quod quos est quasi vero iusto mollitia!</p>
+            </div>
+            <center>
+                <div class="third">
+                    <h4>Read More</h4>
+                </div>
+            </center>
+        </div>
+        </div>
 
     <!-- This line of code is used to linke the JavaScript_Files in the HTML File. -->
     <script src="/Web-Development_Full_Course/JavaScript_Files/script2.js"></script>

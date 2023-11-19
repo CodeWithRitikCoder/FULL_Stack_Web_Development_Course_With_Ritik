@@ -27,12 +27,12 @@
 25-> CSS Specificity and Cascade Algorithm in HTML.
 26-> CSS Sizing Units-px_rem_em_vh_vw___and More in HTML.
 27-> CSS Display Property in HTML.
-30-> CSS Shadows And Outlines in HTML.
-31-> Styling Lists Using CSS in HTML.
-32-> CSS Overflow Property in HTML.
-33-> CSS Position Property in HTML.
-34-> Exercise-3 For CSS Practice In HTML.
-35-> CSS Variables in HTML.
-35-> CSS Media Queries in HTML
-36-> Exercise-4 Mulit Color Nav bar using variables concept In HTML. -
-37-> CSS Float and Clear in HTML.
+28-> CSS Shadows And Outlines in HTML.
+29-> Styling Lists Using CSS in HTML.
+30-> CSS Overflow Property in HTML.
+31-> CSS Position Property in HTML.
+32-> Exercise-3 For CSS Practice In HTML.
+33-> CSS Variables in HTML.
+34-> CSS Media Queries in HTML
+35-> Exercise-4 Mulit Color Nav bar using variables concept In HTML. -
+36-> CSS Float and Clear in HTML.

@@ -13,26 +13,29 @@
 
     <!-- Internal CSS. for Div Tag. -->
     <style>
+        body{
+            /* background-color: gray; */
+        }
         .mainDiv{
             display: flex;
-            margin: 20px;
         }
         .mainDiv:first-child .card{
             height: 100px;
         }
         .card1{
+            background-color: white;
             border: 2px solid rgb(199, 184, 184);
             width: 20%;
-            height:  580px;
+            height:  480px;
             padding: 10px;
             border-radius: 15px;
             box-shadow: 2px 5px 5px rgb(199, 184, 184);
-            margin-right: 20px;
+            margin: 25px;
         }
         .card2{
             border: 2px solid rgb(199, 184, 184);
             width: 20%;
-            height:  450px;
+            height:  380px;
             padding: 10px;
             border-radius: 15px;
             box-shadow: 2px 5px 5px rgb(199, 184, 184);
@@ -54,27 +57,42 @@
             padding-top: 2px;
             padding-bottom: 2px;
             border-radius: 50px;
-            font-weight: 500;
+            font-weight: bold;
         }
-        .third{
-            border: 2px solid #e0eeff;
-            border-radius: 50px;
-            background-color: #e0eeff;
-            color: blue;
-            width: 35%;
-            height: 45px;
+        .button{
             margin-top: 20px;
-        }
-        h4{
             text-align: center;
-            margin: 10px;
-            /* border: 2px solid pink; */
+        }
+        .button button{
+            padding: 8px 15px;
+            border-radius: 15px;
+            background-color: rgb(216, 236, 253);
+            color: rgb(14, 150, 234);
+            font-size: 14px;
+            margin-top: 5px;
+            border: none;
+            font-weight: bold;
         }
         .card1:hover{
             box-shadow: 2px 6px 8px rgb(57, 220, 32);
         }
         .card2:hover{
             box-shadow: 2px 6px 8px rgb(57, 220, 32);
+        }
+        .button button:hover{
+            background-color: tomato;
+            color: yellow;
+        }
+        span:hover{
+            background-color: rgb(158, 115, 115);
+            color: white;
+        }
+
+        /* A little use of Media query */
+        @media only Screen and (max-width: 666px){
+            .mainDiv{
+                flex-direction: column;
+            }
         }
         
     </style>
@@ -102,103 +120,60 @@
             <span>Nature</span>
             <span>Lake</span>
             <h2>Lago di Braies</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae debitis sapiente soluta laboriosam quod quos est quasi vero iusto mollitia!</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio, molestias. Molestiae distinctio laudantium ullam veniam corporis quos, quisquam pariatur accusamus, mollitia nulla officia quod repellat!</p>
         </div>
-        <center>
-            <div class="third">
-                <h4>Read More</h4>
+            <div class="button">
+                <button>Read More</button>
             </div>
-        </center>
     </div>
 
     <div class="card1">
         <div class="first">
-            <img src="/Web-Development_Full_Course/Image_Files/C++ Programming.png" alt="Div image">
+            <img src="/Web-Development_Full_Course/Image_Files/C Programming.png" alt="Div image">
         </div>
         <div class="second">
             <span>Nature</span>
             <span>Lake</span>
             <h2>Lago di Braies</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae debitis sapiente soluta laboriosam quod quos est quasi vero iusto mollitia!</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio, molestias. Molestiae distinctio laudantium ullam veniam corporis quos, quisquam pariatur accusamus, mollitia nulla officia quod repellat!</p>
         </div>
-        <center>
-            <div class="third">
-                <h4>Read More</h4>
+            <div class="button">
+                <button>Read More</button>
             </div>
-        </center>
     </div>
 
     <div class="card1">
         <div class="first">
-            <img src="/Web-Development_Full_Course/Image_Files/JAVA Programming.png" alt="Div image">
+            <img src="/Web-Development_Full_Course/Image_Files/C Programming.png" alt="Div image">
         </div>
         <div class="second">
             <span>Nature</span>
             <span>Lake</span>
             <h2>Lago di Braies</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae debitis sapiente soluta laboriosam quod quos est quasi vero iusto mollitia!</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio, molestias. Molestiae distinctio laudantium ullam veniam corporis quos, quisquam pariatur accusamus, mollitia nulla officia quod repellat!</p>
         </div>
-        <center>
-            <div class="third">
-                <h4>Read More</h4>
+            <div class="button">
+                <button>Read More</button>
             </div>
-        </center>
+    </div>
+
+    <div class="card1">
+        <div class="first">
+            <img src="/Web-Development_Full_Course/Image_Files/C Programming.png" alt="Div image">
+        </div>
+        <div class="second">
+            <span>Nature</span>
+            <span>Lake</span>
+            <h2>Lago di Braies</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio, molestias. Molestiae distinctio laudantium ullam veniam corporis quos, quisquam pariatur accusamus, mollitia nulla officia quod repellat!</p>
+        </div>
+            <div class="button">
+                <button>Read More</button>
+            </div>
     </div>
     </div>
 
-    <!-- Second Row of Card View -->
-    <div class="mainDiv">
-        <div class="card2">
-            <div class="first">
-                <img src="/Web-Development_Full_Course/Image_Files/MySQL Programming.bak.png" alt="Div image">
-            </div>
-            <div class="second">
-                <span>Nature</span>
-                <span>Lake</span>
-                <h2>Lago di Braies</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae debitis sapiente soluta laboriosam quod quos est quasi vero iusto mollitia!</p>
-            </div>
-            <center>
-                <div class="third">
-                    <h4>Read More</h4>
-                </div>
-            </center>
-        </div>
     
-        <div class="card2">
-            <div class="first">
-                <img src="/Web-Development_Full_Course/Image_Files/Android App Development.png" alt="Div image">
-            </div>
-            <div class="second">
-                <span>Nature</span>
-                <span>Lake</span>
-                <h2>Lago di Braies</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae debitis sapiente soluta laboriosam quod quos est quasi vero iusto mollitia!</p>
-            </div>
-            <center>
-                <div class="third">
-                    <h4>Read More</h4>
-                </div>
-            </center>
-        </div>
-    
-        <div class="card2">
-            <div class="first">
-                <img src="/Web-Development_Full_Course/Image_Files/Web Development.png" alt="Div image">
-            </div>
-            <div class="second">
-                <span>Nature</span>
-                <span>Lake</span>
-                <h2>Lago di Braies</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae debitis sapiente soluta laboriosam quod quos est quasi vero iusto mollitia!</p>
-            </div>
-            <center>
-                <div class="third">
-                    <h4>Read More</h4>
-                </div>
-            </center>
-        </div>
-        </div>
 
     <!-- This line of code is used to linke the JavaScript_Files in the HTML File. -->
     <script src="/Web-Development_Full_Course/JavaScript_Files/script2.js"></script>

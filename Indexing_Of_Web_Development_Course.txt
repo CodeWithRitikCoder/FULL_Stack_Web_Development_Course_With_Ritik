@@ -33,3 +33,6 @@
 33-> CSS Position Property in HTML.
 34-> Exercise-3 For CSS Practice In HTML.
 35-> CSS Variables in HTML.
+35-> CSS Media Queries in HTML
+36-> Exercise-4 Mulit Color Nav bar using variables concept In HTML. -
+37-> CSS Float and Clear in HTML.

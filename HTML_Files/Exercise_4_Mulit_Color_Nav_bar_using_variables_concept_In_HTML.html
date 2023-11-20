@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="This is my HTML Exercise-4 Mulit Color Nav bar using variables concept In HTML File for this Web-Development_Full_Course Series.">
+    <title>Exercise-4 Mulit Color Nav bar using variables concept In HTML</title>
+
+    <!-- this line of code is used to link the css file in the HTML File -->
+    <link rel="stylesheet" href="/Web-Development_Full_Course/CSS_Files/Inline_Internal_And_External_CSS_In_HTML.css">
+    <!-- This linke of code is used to add tab icon in the HTML file. -->
+    <link rel="tab icon" type="x-icon" href="/Web-Development_Full_Course/Image_Files/my_image.png">
+
+    <!-- Internal CSS. for Div Tag. -->
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&family=Poppins:wght@300&display=swap');
+      </style>
+    <style>
+        :root{
+            --primary-color: #22083ccc;
+            --text-color: aqua;
+            --secondary-color: #bb9addcc;
+        }
+        *{
+            margin: 0;
+            padding: 0;
+            font-family: 'Poppins', sans-serif;
+        }
+        body{
+            background-color: var(--secondary-color);
+        }
+        nav{
+            background-color: var(--primary-color);
+            padding: 12px 0px;
+        }
+        ul li{
+            list-style: none;
+            padding: 20px;
+            display: inline;
+            font-weight: bolder;
+            color: var(--text-color);
+        }   
+        ul{
+            /* display: flex; */
+        }
+        ul li a{
+            text-decoration: none; /* This line will remove the underline of link/ancher tag. that's it */
+            color: var(--text-color);
+        }
+    </style>
+
+</head>
+<body>
+    <h1 style="text-align: center; color: black;">Exercise-4 Mulit Color Nav bar using variables concept In HTML</h1>
+    <h1 style="text-align: center; color: black;">With Ritik</h1>
+    <hr><hr>
+
+        <!--  
+            => Exercise-4 Mulit Color Nav bar using variables concept In HTML.
+
+            => 
+
+        -->
+    
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- This line of code is used to linke the JavaScript_Files in the HTML File. -->
+    <script src="/Web-Development_Full_Course/JavaScript_Files/script2.js"></script>
+</body>
+</html>

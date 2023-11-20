@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="This is my HTML More on CSS Selectors in HTML File for this Web-Development_Full_Course Series.">
+    <title>More on CSS Selectors in HTML</title>
+
+    <!-- this line of code is used to link the css file in the HTML File -->
+    <link rel="stylesheet" href="/Web-Development_Full_Course/CSS_Files/Inline_Internal_And_External_CSS_In_HTML.css">
+    <!-- This linke of code is used to add tab icon in the HTML file. -->
+    <link rel="tab icon" type="x-icon" href="/Web-Development_Full_Course/Image_Files/my_image.png">
+
+    <!-- Internal CSS. for Div Tag. -->
+    <style>
+        /* .box:first-child{
+            background-color: red;
+        } */
+
+        /* .box::first-line{
+            color: green;
+        } */
+
+        .boxes *{
+            color: blue;
+            border: 2px solid black;
+        }
+
+        /* [data-color="primary"]{
+            padding-top: 45px;
+        } */
+
+        p, a, .box, [data-color="primary"]{
+            padding-top: 45px;
+        }
+
+        /* .box:nth-child(even){
+            background-color: blue;
+            color: yellow;
+        } */
+
+        /* .box:nth-child(odd){
+            background-color: blue;
+            color: yellow;
+        } */
+
+        /* .box:nth-child(2){
+            background-color: blue;
+            color: green;
+        } */
+
+        /* .box:nth-last-child(1){
+            background-color: blue;
+            color: green;
+        } */
+
+        /* Element Insertion dynamically using CSS. */
+        .boxes::before{
+            content: "I want to become a Software Engineer.";
+            background-color: red;
+        }
+
+        .boxes::after{
+            content: "I am Ritik.";
+            background-color: green;
+            color: blue;
+        }
+        
+        .box:nth-last-child(2){
+            background-color: blue;
+            color: green;
+        }
+        
+        /* This will work while selecting the text */
+        ::selection{
+            color: aqua;
+            background-color: black;
+        }
+
+        .box::first-letter{
+            color: peru;
+            font-size: 45px;
+        }
+
+        input::placeholder{
+            color: rgb(183, 183, 210);
+            /* font-size: 56px; */
+        }
+    </style>
+
+</head>
+<body>
+    <h1 style="text-align: center; color: black;">More on CSS Selectors in HTML</h1>
+    <h1 style="text-align: center; color: black;">With Ritik</h1>
+    <hr><hr>
+
+        <!--  
+            => More on CSS Selectors in HTML.
+
+            => 
+
+        -->
+    
+    <div class="boxes">
+        <div data-color="primary" class="box">My name is Ritik</div>
+        <div class="box">Hey I ma a box</div>
+        <div class="box">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque eius perferendis facere ratione dolores maxime deserunt incidunt eos. Laboriosam pariatur error voluptas dolorum nisi aspernatur, recusandae voluptatum, incidunt omnis sapiente nemo! Placeat explicabo, nostrum repellat qui nulla dolore quia voluptatem fugiat. Ipsum nobis amet veniam.</div>
+        <input type="text" placeholder="Type your name here.">
+    </div>
+
+    <!-- This line of code is used to linke the JavaScript_Files in the HTML File. -->
+    <script src="/Web-Development_Full_Course/JavaScript_Files/script2.js"></script>
+</body>
+</html>

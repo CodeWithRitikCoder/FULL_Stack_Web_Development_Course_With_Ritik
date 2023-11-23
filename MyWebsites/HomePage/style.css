@@ -5,6 +5,22 @@
     margin: 0;
     font-family: 'Poppins', sans-serif;
 }
+
+/* CSS variables */
+:root{
+    /* CSS Variables */
+    /* CSS variable can hold values, strings, numbers, size, padding, margin and etc. */
+    /* CSS variable are two types 1. local variable, 2. Global variable */
+    --color: rgb(78, 154, 132);
+    --seccolor: rgb(174, 174, 222);
+}
+:root{
+    --mainColor: #3c3a5b;
+    --secondColor: #497aba;
+    --hoverColor: blue;
+    --navMenuHoverColor: #b1bfcb;
+}
+
 header{
     /* width: 100%; */
     position: sticky;
@@ -12,7 +28,7 @@ header{
 }
 nav{
     width: 100%;
-    background-color: #3c3a5d;
+    background-color: var(--mainColor);
     display: flex;
     padding: 5px;
     align-items: center;
@@ -50,7 +66,7 @@ nav ul li a{
     text-decoration: none;
 }
 nav ul li a:hover{
-    color: #b1bfcb;
+    color: var(--navMenuHoverColor);
 }
 nav ul li:nth-child(7){
     background-color: yellow;
@@ -119,6 +135,9 @@ section{
     color: #554bdf;
     font-size: 50px;
 }
+/* .div1OfSection1 h1:nth{
+    color: black;
+} */
 .div1OfSection1 h2{
     color: #367cbf;
     font-size: 42px;
@@ -141,16 +160,16 @@ section{
     border-radius: 10px;
     font-size: 20px;
     font-weight: bolder;
-    border: 2px solid #3c3a5d;
-    box-shadow: 2px 5px 8px #3c3a5d;
+    border: 2px solid var(--mainColor);
+    box-shadow: 2px 5px 8px var(--mainColor);
 }
 .deshboardButton :first-child{
-    background-color: #3c3a5d;
+    background-color: var(--mainColor);
     color: white;
 }
 .deshboardButton :nth-child(2){
     background-color: white;
-    color: #3c3a5d;
+    color: var(--mainColor);
     margin-left: 20px;
 }
 .deshboardButton :first-child:hover{
@@ -182,7 +201,7 @@ section{
 /* section2 */
 .section2{
     width: 100%;
-    background-color: #3c3a5d;
+    background-color: var(--mainColor);
     text-align: center;
     padding-top: 50px;
     padding-bottom: 100px;
@@ -201,6 +220,9 @@ section{
     /* box-shadow: 0 10px 25px rgba(252, 251, 251, 0.3); */
     box-shadow: 2px 5px 8px blue;
 }
+.div1OfSection2:hover{
+    box-shadow: 2px 5px 8px rgb(199, 104, 222);
+}
 .div1OfSection2 > i{
     font-size: 20px;
     color: #3c3a5d;;
@@ -211,7 +233,7 @@ section{
     text-align: center;
     border-radius: 20px;
     font-size: 20px;
-    color: #3c3a5d;
+    color: var(--mainColor);
     flex: 1;
     height: 40px;
     border: none;
@@ -278,7 +300,7 @@ section{
     border-radius: 50px;
 }
 .categoriesHeading{
-    color: #3c3a5d;
+    color: var(--mainColor);
     font-size: 250%;
 }
 .categoriesRow{
@@ -293,10 +315,13 @@ section{
     border: none;
     padding: 20px 40px 20px 40px;
     border-radius: 50px;
-    background-color: #3c3a5d;
+    background-color: var(--mainColor);
     color: white;
     font-size: 200%;
     font-weight: bolder;
+}
+.categoriesButton button:hover{
+    box-shadow: 2px 5px 5px blue;
 }
 
 
@@ -319,11 +344,11 @@ section{
 }
 .div1OfSection4 h1{
     font-size: 60px;
-    color: #3c3a5d;
+    color: var(--mainColor);
 }
 .div1OfSection4 h3{
     font-size: 30px;
-    color: #367cbf;
+    color: var(--secondColor);
 }
 .div2OfSection4{
     padding: 10px 0px 20px 0px;
@@ -336,7 +361,7 @@ section{
     width: 25%;
     margin: auto;
     padding: 20px;
-    border: 3px solid #3c3a5d;
+    border: 3px solid var(--mainColor);
     border-radius: 30px;
     box-shadow: 2px 3px 4px #9c99c9;
 }
@@ -348,21 +373,21 @@ section{
 .boxOfSection4 h1{
     font-size: 40px;
     padding: 20px 0px 20px 0px;
-    color: #367cbf;
+    color: var(--secondColor);
 }
 .boxOfSection4 p{
     font-size: 30px;
     color: #759bbc;
 }
 .boxOfSection4 button{
-    border: 2px solid #367cbf;
+    border: 2px solid var(--secondColor);
     border-radius: 15px;
     padding: 10px 20px 10px 20px;
     font-size: 20px;
     font-weight: bolder;
     background-color: white;
     margin-top: 80px;
-    box-shadow: 2px 3px 4px #3c3a5d;
+    box-shadow: 2px 3px 4px var(--mainColor);
 }
 .boxOfSection4 button:hover{
     box-shadow: 2px 3px 4px blue;
@@ -386,7 +411,7 @@ section{
 footer{
     /* height: 200px; */
     color: white;
-    background-color: #3c3a5d;
+    background-color: var(--mainColor);
     display: flex;
     /* border: 2px solid yellow; */
 }
@@ -436,7 +461,7 @@ footer{
 .floatingButton{
     height: 50px;
     width: 50px;
-    background-color: #3c3a5d;
+    background-color: var(--mainColor);
     position: fixed;
     bottom: 35px;
     right: 30px;

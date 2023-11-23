@@ -1,9 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="This is my HTML Exercise-5 Design this Layout in HTML File for this Web-Development_Full_Course Series.">
+    <meta name="description"
+        content="This is my HTML Exercise-5 Design this Layout in HTML File for this Web-Development_Full_Course Series.">
     <title>Exercise-5 Design this Layout in HTML</title>
 
     <!-- this line of code is used to link the css file in the HTML File -->
@@ -14,51 +16,66 @@
     <!-- Internal CSS. for Div Tag. -->
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&family=Poppins:wght@300&display=swap');
-      </style>
+    </style>
     <style>
-        *{
+        * {
             padding: 0;
             margin: 0;
             font-family: 'Poppins', sans-serif;
         }
-        body{
+
+        body {
             background-color: #121826;
         }
-        nav{
+
+        header {
+            position: sticky;
+            top: 0;
+        }
+
+        nav {
             background-color: #c5afde;
             display: flex;
         }
-        nav img{
+
+        nav img {
             width: 40px;
             height: 40px;
-            margin: 10px 0px 0px 10px; /*Top Right Bottom left */
+            margin: 10px 0px 0px 10px;
+            /*Top Right Bottom left */
         }
-        nav ul li{
+
+        nav ul li {
             list-style: none;
             padding: 20px;
             font-weight: bolder;
             color: blue;
         }
-        nav ul{
+
+        nav ul {
             display: flex;
         }
-        a{
+
+        a {
             text-decoration: none;
             color: #121826;
         }
-        nav ul a:hover{
+
+        nav ul a:hover {
             color: blue;
         }
+
         /* First section CSS */
-        .main1Div{
+        .main1Div {
             height: 600px;
             background-color: #70ad46;
-            margin: 20px;
+            margin: 20px 20px 50px 20px;
             padding: 20px 0px 60px 0px;
             display: flex;
             text-align: center;
         }
-        .card{
+
+        .card {
             width: 300px;
             background-color: white;
             margin: auto;
@@ -67,29 +84,35 @@
             padding: 10px;
             margin-bottom: 10px;
         }
-        .image img{
+
+        .image img {
             width: 100%;
             border-radius: 15px;
         }
-        .content{
+
+        .content {
             padding: 5px 10px 0px 10px;
             text-align: left;
         }
-        .content span{
+
+        .content span {
             border: 2px solid rgb(199, 184, 184);
             color: rgb(158, 115, 115);
             padding: 0px 10px 0px 10px;
             border-radius: 50px;
             font-weight: bold;
         }
-        .content h2{
+
+        .content h2 {
             margin: 8px;
         }
-        .button{
+
+        .button {
             text-align: center;
             margin-top: 20px;
         }
-        .button button{
+
+        .button button {
             border: none;
             padding: 10px;
             border-radius: 20px;
@@ -98,77 +121,93 @@
             font-size: 14px;
             font-weight: bolder;
         }
-        .card:hover{
+
+        .card:hover {
             box-shadow: 2px 6px 8px rgb(57, 220, 32);
         }
-        .button button:hover{
+
+        .button button:hover {
             background-color: red;
             color: yellow;
         }
-        span:hover{
+
+        span:hover {
             background-color: rgb(158, 115, 115);
             border-color: rgb(158, 115, 115);
             color: white;
         }
 
         /* second section CSS */
-        .secondSection div{
+        .secondSection div {
             border: 2px solid yellow;
             margin: 50px;
             padding: 50px;
-            border-radius: 40px;    
+            border-radius: 40px;
             color: white;
             text-align: center;
             font-size: 25px;
         }
-        .secondSection{
-            margin-bottom: 0px;
+
+        .secondSection {
+            margin-top: 100px;
+            margin-bottom: 500px;
         }
 
         /* footer section */
-        footer{
+        footer {
             background-color: white;
             padding: 30px;
             display: flex;
             margin: auto;
         }
-        footer img{
+
+        footer img {
             margin-right: 10px;
         }
-        footer p{
+
+        footer p {
             margin-top: 5px;
             margin-right: 10px;
             font-size: 20px;
         }
-        .icons{
+
+        .icons {
             margin-left: 100px;
         }
-        .icons img{
+
+        .icons img {
             width: 35px;
         }
-
-        .floatButton{
-            /* position: sticky; */
+        .floatingButton {
+            /* height: 50px;
+            width: 50px; */
+            /* background-color: orange; */
+            position: fixed;
+            bottom: 20px;
+            right: 30px;
+            /* border-radius: 50px; */
         }
-        .floatButton img{
+
+        .floatingButton img {
             width: 50px;
-            position: sticky;
+            /* height: 50px; */
         }
 
-        @media only screen and (max-width: 666px){
-            .main1Div{
+        @media only screen and (max-width: 666px) {
+            .main1Div {
                 flex-direction: column;
             }
         }
     </style>
 
 </head>
+
 <body>
     <!-- <h1 style="text-align: center; color: black;">Exercise-5 Design this Layout in HTML</h1>
     <h1 style="text-align: center; color: black;">With Ritik</h1>
     <hr><hr> -->
 
-        <!--  
+    <!--  
             => Exercise-5 Design this Layout in HTML.
 
             => 
@@ -195,28 +234,15 @@
 
                 <div class="card">
                     <div class="image">
-                        <img src="/Web-Development_Full_Course/Image_Files/Screenshot 2023-11-17 000059.png" alt="Emoji Image">
+                        <img src="/Web-Development_Full_Course/Image_Files/Screenshot 2023-11-17 000059.png"
+                            alt="Emoji Image">
                     </div>
                     <div class="content">
                         <span>Hii</span>
                         <span>Hello</span>
                         <h2>Hii, Ritik</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt, quas laboriosam obcaecati quo nam accusamus?</p>
-                        <div class="button">
-                            <button>Read More</button>
-                        </div>
-                    </div>
-                </div>
-                
-                <div class="card">
-                    <div class="image">
-                        <img src="/Web-Development_Full_Course/Image_Files/Screenshot 2023-11-17 000059.png" alt="Emoji Image">
-                    </div>
-                    <div class="content">
-                        <span>Hii</span>
-                        <span>Hello</span>
-                        <h2>Hii, Ritik</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt, quas laboriosam obcaecati quo nam accusamus?</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt, quas laboriosam obcaecati
+                            quo nam accusamus?</p>
                         <div class="button">
                             <button>Read More</button>
                         </div>
@@ -225,13 +251,15 @@
 
                 <div class="card">
                     <div class="image">
-                        <img src="/Web-Development_Full_Course/Image_Files/Screenshot 2023-11-17 000059.png" alt="Emoji Image">
+                        <img src="/Web-Development_Full_Course/Image_Files/Screenshot 2023-11-17 000059.png"
+                            alt="Emoji Image">
                     </div>
                     <div class="content">
                         <span>Hii</span>
                         <span>Hello</span>
                         <h2>Hii, Ritik</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt, quas laboriosam obcaecati quo nam accusamus?</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt, quas laboriosam obcaecati
+                            quo nam accusamus?</p>
                         <div class="button">
                             <button>Read More</button>
                         </div>
@@ -240,13 +268,32 @@
 
                 <div class="card">
                     <div class="image">
-                        <img src="/Web-Development_Full_Course/Image_Files/Screenshot 2023-11-17 000059.png" alt="Emoji Image">
+                        <img src="/Web-Development_Full_Course/Image_Files/Screenshot 2023-11-17 000059.png"
+                            alt="Emoji Image">
                     </div>
                     <div class="content">
                         <span>Hii</span>
                         <span>Hello</span>
                         <h2>Hii, Ritik</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt, quas laboriosam obcaecati quo nam accusamus?</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt, quas laboriosam obcaecati
+                            quo nam accusamus?</p>
+                        <div class="button">
+                            <button>Read More</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="image">
+                        <img src="/Web-Development_Full_Course/Image_Files/Screenshot 2023-11-17 000059.png"
+                            alt="Emoji Image">
+                    </div>
+                    <div class="content">
+                        <span>Hii</span>
+                        <span>Hello</span>
+                        <h2>Hii, Ritik</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt, quas laboriosam obcaecati
+                            quo nam accusamus?</p>
                         <div class="button">
                             <button>Read More</button>
                         </div>
@@ -261,6 +308,10 @@
                 <h1>Welcome to My Website and be with me to learn Full Stack - Web Development. with Ritik</h1>
             </div>
         </section>
+
+        <div class="floatingButton">
+            <img src="/Web-Development_Full_Course/Icon_Files/whatsapp_icon.svg" alt="whatsapp icon">
+        </div>
     </main>
 
     <footer>
@@ -278,4 +329,5 @@
     <!-- This line of code is used to linke the JavaScript_Files in the HTML File. -->
     <script src="/Web-Development_Full_Course/JavaScript_Files/script2.js"></script>
 </body>
+
 </html>

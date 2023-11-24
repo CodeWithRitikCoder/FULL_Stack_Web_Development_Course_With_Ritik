@@ -1,40 +1,48 @@
-*********** Indexing of Web_Development Course *************
-
-1-> Introduction of Web_Development.
-2-> Installing VS_Code & How Websites Work.
-3-> Important things related to HTML.
-4-> Creation of First Website.
-5-> Basic Structure of a HTML Website.
-6-> Heading, Paragaraph and Links in HTML.
-7-> Some basic tags in HTML part-1. like as:- <b>, <i>, <u>, <br>, <hr>, <big>, <small>, <pre> and so on.....
-8-> Create a BookMark Website of your favourite websites Links.
-9-> Image, List and Table in HTML.
-10-> SEO and Core Web Vitals in HTML. -
-11-> Forms and Input Tags in HTML.
-12-> Inline & Block Elements in HTML. - with Comprehensive List.
-13-> Id & Classes in HTML.
-14-> Audio, Video and Media in HTML. - Media like as:- svg image, iframe online websites and youtube and other videos       embeding.
-15-> Semantic Tags in HTML.
-16-> Exercise-1 Pure HTML Media Player in HTML. -
-17-> HTML Entities, Code Tags and more on HTML.
-18-> Code Tag with Pre tag in HTML.
-19-> Introduction to CSS.
-20-> Inline, Internal and External CSS.
-21-> CSS Selectors Master Class.
-22-> CSS Box Model - Margin_Padding_Borders.
-23-> CSS Fonts, Text and Color Properties.
-24-> Exercise-2 Write HTML and CSS code to style a Paragaraph inside a div which contains 2 other Paragaraphs. The first Paragaraph must have background color yellow and text color red. The other Paragaraph must have background color blue and text color white. The HTML is written below for your reference.
-25-> CSS Specificity and Cascade Algorithm in HTML.
-26-> CSS Sizing Units-px_rem_em_vh_vw___and More in HTML.
-27-> CSS Display Property in HTML.
-28-> CSS Shadows And Outlines in HTML.
-29-> Styling Lists Using CSS in HTML.
-30-> CSS Overflow Property in HTML.
-31-> CSS Position Property in HTML.
-32-> Exercise-3 For CSS Practice In HTML.
-33-> CSS Variables in HTML.
-34-> CSS Media Queries in HTML
-35-> Exercise-4 Mulit Color Nav bar using variables concept In HTML.
-36-> CSS Float and Clear in HTML.
-37-> More on CSS Selectors in HTML.
-38-> Exercise-5 Design this Layout in HTML.
+__________________________________________________________________________________________________________________________
+|                                                                                                                        |
+|                          *********** Indexing of Web_Development Course *************                                  |
+|------------------------------------------------------------------------------------------------------------------------|
+|   1-> Introduction of Web_Development.                                                                                 |
+|   2-> Installing VS_Code & How Websites Work.                                                                          |
+|   3-> Important things related to HTML.                                                                                |
+|   4-> Creation of First Website.                                                                                       |
+|   5-> Basic Structure of a HTML Website.                                                                               |
+|   6-> Heading, Paragaraph and Links in HTML.                                                                           |
+|   7-> Some basic tags in HTML part-1. like as:- <b>, <i>, <u>, <br>, <hr>, <big>, <small>, <pre> and so on.....        |
+|   8-> Create a BookMark Website of your favourite websites Links.                                                      |
+|   9-> Image, List and Table in HTML.                                                                                   |
+|   10-> SEO and Core Web Vitals in HTML. -                                                                              |
+|   11-> Forms and Input Tags in HTML.                                                                                   |
+|   12-> Inline & Block Elements in HTML. - with Comprehensive List.                                                     |
+|   13-> Id & Classes in HTML.                                                                                           |
+|   14-> Audio, Video and Media in HTML. - Media like as:- svg image, iframe online websites and youtube and other       |
+|        videos embeding.                                                                                                |
+|   15-> Semantic Tags in HTML.                                                                                          |
+|   16-> Exercise-1 Pure HTML Media Player in HTML. -                                                                    |
+|   17-> HTML Entities, Code Tags and more on HTML.                                                                      |
+|   18-> Code Tag with Pre tag in HTML.                                                                                  |
+|   19-> Introduction to CSS.                                                                                            |
+|   20-> Inline, Internal and External CSS.                                                                              |
+|   21-> CSS Selectors Master Class.                                                                                     |
+|   22-> CSS Box Model - Margin_Padding_Borders.                                                                         |
+|   23-> CSS Fonts, Text and Color Properties.                                                                           |
+|   24-> Exercise-2 Write HTML and CSS code to style a Paragaraph inside a div which contains 2 other Paragaraphs.       |
+|        The first Paragaraph must have background color yellow and text color red. The other Paragaraph must have       |
+|        background color blue and text color white. The HTML is written below for your reference.                       |
+|   25-> CSS Specificity and Cascade Algorithm in HTML.                                                                  |
+|   26-> CSS Sizing Units-px_rem_em_vh_vw___and More in HTML.                                                            |
+|   27-> CSS Display Property in HTML.                                                                                   |
+|   28-> CSS Shadows And Outlines in HTML.                                                                               |
+|   29-> Styling Lists Using CSS in HTML.                                                                                |
+|   30-> CSS Overflow Property in HTML.                                                                                  |
+|   31-> CSS Position Property in HTML.                                                                                  |
+|   32-> Exercise-3 For CSS Practice In HTML.                                                                            |
+|   33-> CSS Variables in HTML.                                                                                          |
+|   34-> CSS Media Queries in HTML                                                                                       |
+|   35-> Exercise-4 Mulit Color Nav bar using variables concept In HTML.                                                 |
+|   36-> CSS Float and Clear in HTML.                                                                                    |
+|   37-> More on CSS Selectors in HTML.                                                                                  |
+|   38-> Exercise-5 Design this Layout in HTML.                                                                          |
+|   39-> CSS Flexbox in HTML.                                                                                            |
+|                                                                                                                        |
+**************************************************************************************************************************

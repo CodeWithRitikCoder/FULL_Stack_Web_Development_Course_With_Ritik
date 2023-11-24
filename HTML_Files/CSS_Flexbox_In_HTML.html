@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="This is my HTML CSS Flexbox in HTML File for this Web-Development_Full_Course Series.">
+    <title>CSS Flexbox in HTML</title>
+
+    <!-- this line of code is used to link the css file in the HTML File -->
+    <link rel="stylesheet" href="/Web-Development_Full_Course/CSS_Files/Inline_Internal_And_External_CSS_In_HTML.css">
+    <!-- This linke of code is used to add tab icon in the HTML file. -->
+    <link rel="tab icon" type="x-icon" href="/Web-Development_Full_Course/Image_Files/my_image.png">
+
+    <!-- Internal CSS. for Div Tag. -->
+    <style>
+        .container{
+            border: 4px solid blue;
+            display: flex;
+            height: 80vh;
+
+            /* Therse all are container properties. */
+
+        /* Properties of justify-content: ; */
+        /* Horizontaly center contianer item */
+            /* justify-content: center; */
+            /* justify-content: start; */
+            /* justify-content: end; */
+            /* justify-content: flex-start; */
+            /* justify-content: flex-end; */
+            /* justify-content: right; */
+            /* justify-content: left; */
+            /* justify-content: space-around; */
+            /* justify-content: space-between; */
+            /* justify-content: space-evenly; */
+            
+        /* properties of align-items: ; */
+        /* Vertically center contianer item */
+            align-items: center; 
+            /* align-items: start; */
+            /* align-items: end; */
+            /* align-items: flex-start; */
+            /* align-items: flex-end; */
+
+        /* Properties of flex-direction: ; */
+            /* flex-direction: column; */
+            /* flex-direction: column-reverse; */
+            /* flex-direction: row; */
+            /* flex-direction: row-reverse; */
+
+        /* Properties of flex-wrap: ; */
+            /* flex-wrap: wrap; */
+            /* flex-wrap: nowrap; */
+            /* flex-wrap: wrap-reverse; */
+
+        /* Properties of align-content: ; */
+            /* align-content: center; */
+            /* align-content: flex-start; */
+            /* align-content: flex-end; */
+            /* align-content: baseline; */
+
+        /* Properties of flex-flow: ; */
+            /* flex-flow: row wrap; */
+
+        /* Properties of gap: ; */
+            /* gap: 30px; */
+            /* row-gap: 40px; */
+            /* column-gap: 10px; */
+            /*gap: 10px 40px;*/ /* Row-Gap Column-Gap*/
+
+        
+        /* There is no justify-items: ; in flex box */
+
+        }
+        .item{
+            height: 52px;
+            width: 52px;
+            border: 2px solid black;
+            margin: 5px;
+            background-color: blueviolet;
+            color: white;
+
+            /* bydefault flex-grow: ; is 0 */
+            /* flex-grow: 1; */
+
+
+
+        }
+        .item1{
+            /* flex-grow: 2; */
+
+            /* flex-shrink: 2; */
+
+        /* Properties of align-self: ; */
+        align-self: flex-start;
+            /* align-self: flex-end; */
+        }
+        .item2{
+            align-self: flex-end;
+        }
+
+        /* :default order is 0 of item */
+            /* lower Priority order at first */
+        .order_1 {
+            order: 1;
+        }
+        .order_2 {
+            order: 2;
+        }
+        .order_3 {
+            order: 3;
+        }
+    </style>
+
+</head>
+<body>
+    <h1 style="text-align: center; color: black;">CSS Flexbox in HTML</h1>
+    <h1 style="text-align: center; color: black;">With Ritik</h1>
+    <hr><hr>
+
+        <!--  
+            => CSS Flexbox in HTML.
+
+            => 
+
+        -->
+    
+    <main>
+        <div class="container">
+            <div class="item order_1">Item - 1</div>
+            <div class="item order_2">Item - 2</div>
+            <div class="item order_3">Item - 3</div>
+            <div class="item item1">Item - 4</div>
+            <div class="item">Item - 5</div>
+            <div class="item">Item - 5</div>
+            <div class="item item2">Item - 5</div>
+            <div class="item">Item - 5</div>
+            <div class="item">Item - 5</div>
+            <div class="item">Item - 5</div>
+            <div class="item">Item - 5</div>
+            <div class="item">Item - 5</div>
+            <div class="item">Item - 5</div>
+            <div class="item">Item - 5</div>
+            <div class="item">Item - 5</div>
+            <div class="item">Item - 5</div>
+            <div class="item">Item - 5</div>
+            <!-- <div class="item">Item - 5</div>
+            <div class="item">Item - 5</div>
+            <div class="item">Item - 5</div>
+            <div class="item">Item - 5</div>
+            <div class="item">Item - 5</div>
+            <div class="item">Item - 5</div>
+            <div class="item">Item - 5</div>
+            <div class="item">Item - 5</div>
+            <div class="item">Item - 5</div>
+            <div class="item">Item - 5</div>
+            <div class="item">Item - 5</div>
+            <div class="item">Item - 5</div>
+            <div class="item">Item - 5</div>
+            <div class="item">Item - 5</div>
+            <div class="item">Item - 5</div>
+            <div class="item">Item - 5</div>
+            <div class="item">Item - 5</div>
+            <div class="item">Item - 5</div>
+            <div class="item">Item - 5</div>
+            <div class="item">Item - 5</div>
+            <div class="item">Item - 5</div>
+            <div class="item">Item - 5</div>
+            <div class="item">Item - 5</div>
+            <div class="item">Item - 5</div>
+            <div class="item">Item - 5</div>
+            <div class="item">Item - 5</div>
+            <div class="item">Item - 5</div>
+            <div class="item">Item - 5</div>
+            <div class="item">Item - 5</div>
+            <div class="item">Item - 5</div>
+            <div class="item">Item - 5</div>
+            <div class="item">Item - 5</div>
+            <div class="item">Item - 5</div>
+            <div class="item">Item - 5</div> -->
+        </div>
+    </main>
+
+    <!-- This line of code is used to linke the JavaScript_Files in the HTML File. -->
+    <script src="/Web-Development_Full_Course/JavaScript_Files/script2.js"></script>
+</body>
+</html>

@@ -8,13 +8,6 @@
 
 /* CSS variables */
 :root{
-    /* CSS Variables */
-    /* CSS variable can hold values, strings, numbers, size, padding, margin and etc. */
-    /* CSS variable are two types 1. local variable, 2. Global variable */
-    --color: rgb(78, 154, 132);
-    --seccolor: rgb(174, 174, 222);
-}
-:root{
     --mainColor: #3c3a5b;
     --secondColor: #497aba;
     --hoverColor: blue;
@@ -68,28 +61,11 @@ nav ul li a{
 nav ul li a:hover{
     color: var(--navMenuHoverColor);
 }
-nav ul li:nth-child(7){
-    background-color: yellow;
-    border-radius: 10px;
-    border: none;
-    margin-right: 10px;
-}
-nav ul li:nth-child(7) a{
-    color: black;
-    font-weight: bolder;
-}
-nav ul li:nth-child(7):hover{
-    background-color: #367cbf;
-    /* border: 2px solid #3c3a5d; */
-    box-shadow: 2px 5px 8px #21df4d;
-}
-nav ul li:nth-child(7) a:hover{
-    color: white;
-}
 nav ul li:nth-child(8){
     background-color: yellow;
     border-radius: 10px;
     border: none;
+    margin-right: 10px;
 }
 nav ul li:nth-child(8) a{
     color: black;
@@ -101,6 +77,23 @@ nav ul li:nth-child(8):hover{
     box-shadow: 2px 5px 8px #21df4d;
 }
 nav ul li:nth-child(8) a:hover{
+    color: white;
+}
+nav ul li:nth-child(9){
+    background-color: yellow;
+    border-radius: 10px;
+    border: none;
+}
+nav ul li:nth-child(9) a{
+    color: black;
+    font-weight: bolder;
+}
+nav ul li:nth-child(9):hover{
+    background-color: #367cbf;
+    /* border: 2px solid #3c3a5d; */
+    box-shadow: 2px 5px 8px #21df4d;
+}
+nav ul li:nth-child(9) a:hover{
     color: white;
 }
 
@@ -115,9 +108,36 @@ nav ul li:nth-child(8) a:hover{
     border-radius: 10px;
 }
 
+/* Notes nav bar */
+.notesBar ul{
+    width: fit-content;
+    display: flex;
+    justify-content: center;
+    margin: 5px auto;
+    font-size: 18px;
+    color: blue;
+    font-weight: bold;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 1px 4px 10px var(--mainColor);
+}
+.notesBar ul li{
+    padding: 5px 15px 5px 15px;
+    list-style: none;
+}
+.notesBar ul a{
+    color: blue;
+    text-decoration: none;
+}
+.notesBar ul a:hover{
+    color: var(--mainColor);
+    text-decoration: underline;
+}
+
 /* section1 */
 section{
     width: 100%;
+    /* border: 2px solid black; */
 }
 .subDiv1OfSection1{
     margin: 80px 0px 0px 100px;

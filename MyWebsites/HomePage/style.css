@@ -79,7 +79,7 @@ nav ul li:nth-child(8):hover{
 nav ul li:nth-child(8) a:hover{
     color: white;
 }
-nav ul li:nth-child(9){
+nav ul li:nth-child(9){ 
     background-color: yellow;
     border-radius: 10px;
     border: none;
@@ -151,13 +151,13 @@ section{
     margin-bottom: 10px;
     margin-left: 20px;
 }
+/* .subDiv1OfSection1 h1 span{
+    color: #554bdf;
+} */
 .div1OfSection1 h1{
     color: #554bdf;
     font-size: 50px;
 }
-/* .div1OfSection1 h1:nth{
-    color: black;
-} */
 .div1OfSection1 h2{
     color: #367cbf;
     font-size: 42px;
@@ -204,6 +204,7 @@ section{
 }
 .section1{
     display: flex;
+    width: 100%;
 }
 .deshboardImage{
     width: 100%;
@@ -212,7 +213,7 @@ section{
     margin-right: 0px;
 }
 .deshboardImage img{
-    margin-top: 50px;
+    margin-top: 25px;
     margin-right: 70px;
     width: 50vh;
     float: right;

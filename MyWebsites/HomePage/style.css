@@ -1,5 +1,3 @@
-
-
 *{
     padding: 0;
     margin: 0;
@@ -281,8 +279,11 @@ section{
     width: 70%;
     border-radius: 20px;
     margin-bottom: 10px;
+    box-shadow: 2px 4px 8px blue;
 }
 .boxOfSection2 h3{
+    margin-top: 10px;
+    font-size: 20px;
     margin-bottom: 10px;
 }
 .boxOfSection2 p{
@@ -304,7 +305,8 @@ section{
 }
 .boxOfSection2 div img:hover{
     /* border: 2px solid yellow; */
-    box-shadow: 2px 5px 8px blue;
+    /* box-shadow: 2px 5px 8px blue; */
+    box-shadow: 2px 5px 8px yellow;
 }
 
 
@@ -320,9 +322,9 @@ section{
     padding: 30px;
     border-radius: 50px;
 }
-.categoriesHeading{
+.categoriesHeading h1{
     color: var(--mainColor);
-    font-size: 250%;
+    font-size: 50px;
 }
 .categoriesRow{
     margin: 20px;
@@ -338,7 +340,7 @@ section{
     border-radius: 50px;
     background-color: var(--mainColor);
     color: white;
-    font-size: 200%;
+    font-size: 25px;
     font-weight: bolder;
 }
 .categoriesButton button:hover{
@@ -364,11 +366,11 @@ section{
     padding: 10px 10px 10px 40px;
 }
 .div1OfSection4 h1{
-    font-size: 60px;
+    font-size: 50px;
     color: var(--mainColor);
 }
 .div1OfSection4 h3{
-    font-size: 30px;
+    font-size: 25px;
     color: var(--secondColor);
 }
 .div2OfSection4{
@@ -380,6 +382,7 @@ section{
 .boxOfSection4{
     /* height: 500px; */
     width: 25%;
+    min-height: 100%;
     margin: auto;
     padding: 20px;
     border: 3px solid var(--mainColor);
@@ -392,12 +395,12 @@ section{
     border-radius: 20px;
 }
 .boxOfSection4 h1{
-    font-size: 40px;
+    font-size: 30px;
     padding: 20px 0px 20px 0px;
     color: var(--secondColor);
 }
 .boxOfSection4 p{
-    font-size: 30px;
+    font-size: 20px;
     color: #759bbc;
 }
 .boxOfSection4 button{

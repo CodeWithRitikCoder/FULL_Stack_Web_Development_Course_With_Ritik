@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tutorials</title>
     <style>
+        @import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&family=Baloo+Bhaijaan+2:wght@500&family=Poppins:wght@300&display=swap');
         *{
             padding: 0;
             margin: 0;
@@ -12,10 +13,147 @@
         body{
             background-color: #3c3a5b;
             color: white;
+            text-align: center;
+            font-family: 'Poppins', 'Baloo Bhai 2', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+        body h1{
+            width: 80vw;
+            height: 2vh;
+            margin: 50px auto;
+            font-size: 40px;
+            font-weight: 600;
+        }
+        .section1{
+            /* none */
+        }
+        .section1Row{
+            display: flex;
+            /* margin: 50px; */
+        }
+        .box{
+            background-color: #222a3e;
+            border-radius: 15px;
+            padding: 20px;
+            /* margin: 0px 50px; */
+            margin: 30px 50px;
+            min-height: 20vh;
+            width: 35vw;
+            box-shadow: 2px 2px 8px rgb(172, 172, 237);
+        }
+        .box:hover{
+            box-shadow: 2px 4px 8px yellow;
+        }
+        .box img{
+            width: 35%;
+        }
+        .box h2{
+            margin: 5px;
+        }
+        .box p{
+            color: rgb(67, 193, 193);
+            font-weight: 700;
+        }
+        .box button{
+            font-size: large;
+            font-weight: 600;
+            color: white;
+            margin: 4px;
+            width: 85%;
+            background-color: #b64fe2;
+            padding: 10px 10px;
+            border-radius: 20px;
+            border: none;
+        }
+        .box :nth-child(4){
+            margin-top: 20px;
+        }
+        .box button:hover{
+            background-color: #763293;
+        }
+        .section1Row3{
+            width: fit-content;
+            margin: auto;
+            padding: 30px;
+        }
+        .sortLine{
+            margin-bottom: 10px;
+            font-size: 18px;
         }
     </style>
 </head>
 <body>
-    <h1>Tutorials Page</h1>
+    <h1>Tutorials with Ritik Boss</h1>
+
+    <div class="section1">
+        <div class="section1Row section1Row1">
+            <div class="box">
+                <img src="/Web-Development_Full_Course/Icon_Files/NotesPageIcons/python.webp" alt="python_icon">
+                <h2>Python Tutorials</h2>
+                <p>Start Learning Python from Here</p>
+                <button>Start Learning Python</button><br>
+            </div>
+            <div class="box">
+                <img src="/Web-Development_Full_Course/Icon_Files/NotesPageIcons/c.webp" alt="c_icon">
+                <h2>C Tutorials</h2>
+                <p>Start Learning C from Here</p>
+                <button>Start Learning C</button><br>
+            </div>
+            <div class="box">
+                <img src="/Web-Development_Full_Course/Icon_Files/NotesPageIcons/android.webp" alt="android_icon">
+                <h2>Android Tutorials</h2>
+                <p>Start Learning Android from Here</p>
+                <button>Start Learning Android</button><br>
+            </div>
+            <div class="box">
+                <img src="/Web-Development_Full_Course/Icon_Files/NotesPageIcons/java.webp" alt="java_icon">
+                <h2>JAVA Tutorials</h2>
+                <p>Start Learning JAVA from Here</p>
+                <button>Start Learning JAVA</button><br>
+            </div>
+        </div>
+        <div class="section1Row section1Row2">
+            <div class="box">
+                <img src="/Web-Development_Full_Course/Icon_Files/NotesPageIcons/html.webp" alt="html_icon">
+                <h2>HTML Tutorials</h2>
+                <p>Start Learning HTML from Here</p>
+                <button>Start Learning HTML</button><br>
+            </div>
+            <div class="box">
+                <img src="/Web-Development_Full_Course/Icon_Files/NotesPageIcons/css.webp" alt="css_icon">
+                <h2>CSS Tutorials</h2>
+                <p>Start Learning CSS from Here</p>
+                <button>Start Learning CSS</button><br>
+            </div>
+            <div class="box">
+                <img src="/Web-Development_Full_Course/Icon_Files/NotesPageIcons/dsa.webp" alt="dsa_icon">
+                <h2>DSA Tutorials</h2>
+                <p>Start Learning DSA from Here</p>
+                <button>Start Learning DSA</button><br>
+            </div>
+            <div class="box">
+                <img src="/Web-Development_Full_Course/Icon_Files/NotesPageIcons/js.webp" alt="js_icon">
+                <h2>JavaScript Tutorials</h2>
+                <p>Start Learning JavaScript from Here</p>
+                <button>Start Learning JS</button><br>
+            </div>
+        </div>
+        <h1>Advance Tutorials with Ritik Boss</h1>
+        <div class="section1Row section1Row3">
+            <div class="box">
+                <img src="/Web-Development_Full_Course/Icon_Files/NotesPageIcons/html.webp" alt="html_icon">
+                <h2>Full Stack Web Development Tutorials</h2>
+                <p>Start Learning Full stack Web Development from Here<br>and make your futur Brightest.</p>
+                <p class="sortLine">And Present yourself as a Full Stack Web Developer.</p>
+                <button>Start Learning Web Developemnt</button><br>
+            </div>
+            <div class="box">
+                <img src="/Web-Development_Full_Course/Icon_Files/NotesPageIcons/android.webp" alt="html_icon">
+                <h2>Full Android Developemnt Tutorials</h2>
+                <p>Start Learning Full Android Development from Here<br>and make your futur Brightest.</p>
+                <p class="sortLine">And Present yourself as a Full Android Developer.</p>
+                <button>Start Learning Android Development</button><br>
+            </div>
+        </div>
+    </div>
 </body>
 </html>

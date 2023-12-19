@@ -72,7 +72,7 @@ nav ul li:nth-child(8) a{
 nav ul li:nth-child(8):hover{
     background-color: #367cbf;
     /* border: 2px solid #3c3a5d; */
-    box-shadow: 2px 5px 8px #21df4d;
+    box-shadow: 2px 4px 6px yellow;
 }
 nav ul li:nth-child(8) a:hover{
     color: white;
@@ -89,7 +89,7 @@ nav ul li:nth-child(9) a{
 nav ul li:nth-child(9):hover{
     background-color: #367cbf;
     /* border: 2px solid #3c3a5d; */
-    box-shadow: 2px 5px 8px #21df4d;
+    box-shadow: 2px 4px 6px yellow;
 }
 nav ul li:nth-child(9) a:hover{
     color: white;
@@ -130,6 +130,7 @@ nav ul li:nth-child(9) a:hover{
 .notesBar ul a:hover{
     color: var(--mainColor);
     text-decoration: underline;
+    text-decoration-thickness: 2px;
 }
 
 /* section1 */

@@ -4,7 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Gear</title>
+    <!-- This linke of code is used to add tab icon in the HTML file. -->
+    <link rel="tab icon" type="x-icon" href="/Web-Development_Full_Course/Image_Files/MyLogo.png">
     <style>
+        @import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&family=Baloo+Bhaijaan+2:wght@500&family=Poppins:wght@300&display=swap');
         *{
             padding: 0;
             margin: 0;
@@ -12,10 +15,353 @@
         body{
             background-color: #3c3a5b;
             color: white;
+            /* text-align: center; */
+            font-family: 'Poppins', 'Baloo Bhai 2', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+        body h1{
+            width: 80vw;
+            height: 2vh;
+            margin:  50px auto;
+            font-size: 40px;
+            font-weight: 600;
+        }
+        h3{
+            color: rgb(172, 172, 237);
+        }
+        .mainDiv{
+            /* border: 2px solid white; */
+            margin: 40px 30px;
+            padding: 20px;
+            background-color: #222a3e;
+            border-radius: 15px;
+            box-shadow: 2px 2px 8px rgb(172, 172, 237);
+        }
+        .mainDiv:hover{
+            box-shadow: 2px 2px 8px yellow
+        }
+        .sectionDiv{
+            /* border: 2px solid white; */
+            /* margin-left: 50px; */
+        }
+        .sectionDiv > h2{
+            padding-left: 50px;
+            margin: 10px;
+            font-size: 35px;
+            
+        }
+        .sectionDiv2 > h2{
+            margin-top: 50px;
+            font-size: 35px;
+        }
+        .sectionDiv3 > h2{
+            margin-top: 50px;
+            font-size: 35px;
+        }
+        .Rows{
+            /* border: 2px solid yellow; */
+            border-radius: 20px;
+            display: flex;
+            margin-bottom: 20px;
+            /* padding-top: 10px;
+            padding-bottom: 10px; */
+        }
+        /* .Rows:hover{
+            box-shadow: 2px 2px 8px rgb(172, 172, 237);
+        } */
+        .box{
+            /* border: 2px solid white; */
+            margin: auto;
+            text-align: center;
+            border-radius: 20px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+        }
+        .box:hover{
+            box-shadow: 2px 2px 8px yellow;
+        }
+        .box img{
+            width: 80%;
+            border-radius: 15px;
+        }
+        .div2{
+            margin: 5px 65px;
+            text-align: justify;
+            /* border: 2px solid yellow; */
+        }
+        .div2 button{
+            font-size: large;
+            font-weight: 600;
+            color: white;
+            margin: 10px 5px 0px 0px;
+            width: fit-content;
+            background-color: #b64fe2;
+            padding: 10px 20px;
+            border-radius: 20px;
+            border: none;
+        }
+        .div2 button:hover{
+            background-color: #763293;
+        }
+        .extra{
+            visibility: hidden;
         }
     </style>
 </head>
 <body>
-    <h1>My Gear Page</h1>
+    <h1 style="text-align: center;">🛠 MY GEAR 🛠</h1>
+    <h3 style="text-align: center;">This is what, what I use to create my content. I am not sponsored by any of these companies.</h3>
+    <div class="mainDiv">
+        <div class="sectionDiv sectionDiv1">
+            <h2>🎥 Recording Equipments</h2>
+            <div class="Section1Row1 Rows">
+                <div class="box box1">
+                    <div class="div1">
+                        <img src="/Web-Development_Full_Course/Image_Files/MyGearPageImages/cameraCanon.webp" alt="Camera_image">
+                    </div>
+                    <div class="div2">
+                        <h2>My Studio Camer</h2>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Praesentium minima nemo laborum eligendi iure vero facere maxime consequatur, quam ut ab totam assumenda suscipit iusto nihil modi minus? Fugiat unde odio nulla dolorum maxime fuga sequi ipsa cum maiores excepturi sapiente neque vel sint voluptatem dolores quia fugit, quis reiciendis explicabo esse? Modi porro quis ad exercitationem officiis eligendi adipisci.
+                        </p>
+                        <button>View on Amazon &#8608;</button>
+                    </div>
+                </div>
+                <div class="box box2">
+                    <div class="div1">
+                        <img src="/Web-Development_Full_Course/Image_Files/MyGearPageImages/iphone.webp" alt="Camera_image">
+                    </div>
+                    <div class="div2">
+                        <h2>My Studio Camer</h2>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Praesentium minima nemo laborum eligendi iure vero facere maxime consequatur, quam ut ab totam assumenda suscipit iusto nihil modi minus? Fugiat unde odio nulla dolorum maxime fuga sequi ipsa cum maiores excepturi sapiente neque vel sint voluptatem dolores quia fugit, quis reiciendis explicabo esse? Modi porro quis ad exercitationem officiis eligendi adipisci.
+                        </p>
+                        <button>View on Amazon &#8608;</button>
+                    </div>
+                </div>
+                <div class="box box3">
+                    <div class="div1">
+                        <img src="/Web-Development_Full_Course/Image_Files/MyGearPageImages/webcameLenovo.webp" alt="Camera_image">
+                    </div>
+                    <div class="div2">
+                        <h2>My Studio Camer</h2>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Praesentium minima nemo laborum eligendi iure vero facere maxime consequatur, quam ut ab totam assumenda suscipit iusto nihil modi minus? Fugiat unde odio nulla dolorum maxime fuga sequi ipsa cum maiores excepturi sapiente neque vel sint voluptatem dolores quia fugit, quis reiciendis explicabo esse? Modi porro quis ad exercitationem officiis eligendi adipisci.
+                        </p>
+                        <button>View on Amazon &#8608;</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="Section1Row2 Rows">
+                <div class="box box1">
+                    <div class="div1">
+                        <img src="/Web-Development_Full_Course/Image_Files/MyGearPageImages/micSnowball.webp" alt="Camera_image">
+                    </div>
+                    <div class="div2">
+                        <h2>My Studio Camer</h2>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Praesentium minima nemo laborum eligendi iure vero facere maxime consequatur, quam ut ab totam assumenda suscipit iusto nihil modi minus? Fugiat unde odio nulla dolorum maxime fuga sequi ipsa cum maiores excepturi sapiente neque vel sint voluptatem dolores quia fugit, quis reiciendis explicabo esse? Modi porro quis ad exercitationem officiis eligendi adipisci.
+                        </p>
+                        <button>View on Amazon &#8608;</button>
+                    </div>
+                </div>
+                <div class="box box2">
+                    <div class="div1">
+                        <img src="/Web-Development_Full_Course/Image_Files/MyGearPageImages/micYeti.webp" alt="Camera_image">
+                    </div>
+                    <div class="div2">
+                        <h2>My Studio Camer</h2>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Praesentium minima nemo laborum eligendi iure vero facere maxime consequatur, quam ut ab totam assumenda suscipit iusto nihil modi minus? Fugiat unde odio nulla dolorum maxime fuga sequi ipsa cum maiores excepturi sapiente neque vel sint voluptatem dolores quia fugit, quis reiciendis explicabo esse? Modi porro quis ad exercitationem officiis eligendi adipisci.
+                        </p>
+                        <button>View on Amazon &#8608;</button>
+                    </div>
+                </div>
+                <div class="box box3 extra">
+                    <div class="div1">
+                        <img src="/Web-Development_Full_Course/Image_Files/MyGearPageImages/micYeti.webp" alt="Camera_image">
+                    </div>
+                    <div class="div2">
+                        <h2>My Studio Camer</h2>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Praesentium minima nemo laborum eligendi iure vero facere maxime consequatur, quam ut ab totam assumenda suscipit iusto nihil modi minus? Fugiat unde odio nulla dolorum maxime fuga sequi ipsa cum maiores excepturi sapiente neque vel sint voluptatem dolores quia fugit, quis reiciendis explicabo esse? Modi porro quis ad exercitationem officiis eligendi adipisci.
+                        </p>
+                        <button>View on Amazon &#8608;</button>
+                    </div>
+                </div>
+                
+            </div>
+<!-- 
+            <div class="Section1Row3 Rows">
+                
+            </div> -->
+
+        </div>
+        <div class="sectionDiv sectionDiv2">
+            <h2>🖥 PC Specs</h2>
+            <div class="Section1Row1 Rows">
+                <div class="box box1">
+                    <div class="div1">
+                        <img src="/Web-Development_Full_Course/Image_Files/MyGearPageImages/macbook.webp" alt="Camera_image">
+                    </div>
+                    <div class="div2">
+                        <h2>My Studio Camer</h2>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Praesentium minima nemo laborum eligendi iure vero facere maxime consequatur, quam ut ab totam assumenda suscipit iusto nihil modi minus? Fugiat unde odio nulla dolorum maxime fuga sequi ipsa cum maiores excepturi sapiente neque vel sint voluptatem dolores quia fugit, quis reiciendis explicabo esse? Modi porro quis ad exercitationem officiis eligendi adipisci.
+                        </p>
+                        <button>View on Amazon &#8608;</button>
+                    </div>
+                </div>
+                <div class="box box2">
+                    <div class="div1">
+                        <img src="/Web-Development_Full_Course/Image_Files/MyGearPageImages/asus.webp" alt="Camera_image">
+                    </div>
+                    <div class="div2">
+                        <h2>My Studio Camer</h2>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Praesentium minima nemo laborum eligendi iure vero facere maxime consequatur, quam ut ab totam assumenda suscipit iusto nihil modi minus? Fugiat unde odio nulla dolorum maxime fuga sequi ipsa cum maiores excepturi sapiente neque vel sint voluptatem dolores quia fugit, quis reiciendis explicabo esse? Modi porro quis ad exercitationem officiis eligendi adipisci.
+                        </p>
+                        <button>View on Amazon &#8608;</button>
+                    </div>
+                </div>
+                <div class="box box3">
+                    <div class="div1">
+                        <img src="/Web-Development_Full_Course/Image_Files/MyGearPageImages/intel.webp" alt="Camera_image">
+                    </div>
+                    <div class="div2">
+                        <h2>My Studio Camer</h2>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Praesentium minima nemo laborum eligendi iure vero facere maxime consequatur, quam ut ab totam assumenda suscipit iusto nihil modi minus? Fugiat unde odio nulla dolorum maxime fuga sequi ipsa cum maiores excepturi sapiente neque vel sint voluptatem dolores quia fugit, quis reiciendis explicabo esse? Modi porro quis ad exercitationem officiis eligendi adipisci.
+                        </p>
+                        <button>View on Amazon &#8608;</button>
+                    </div>
+                </div>
+                
+            </div>
+            <div class="Section1Row2 Rows">
+                <div class="box box1">
+                    <div class="div1">
+                        <img src="/Web-Development_Full_Course/Image_Files/MyGearPageImages/nvidia.webp" alt="Camera_image">
+                    </div>
+                    <div class="div2">
+                        <h2>My Studio Camer</h2>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Praesentium minima nemo laborum eligendi iure vero facere maxime consequatur, quam ut ab totam assumenda suscipit iusto nihil modi minus? Fugiat unde odio nulla dolorum maxime fuga sequi ipsa cum maiores excepturi sapiente neque vel sint voluptatem dolores quia fugit, quis reiciendis explicabo esse? Modi porro quis ad exercitationem officiis eligendi adipisci.
+                        </p>
+                        <button>View on Amazon &#8608;</button>
+                    </div>
+                </div>
+                <div class="box box2">
+                    <div class="div1">
+                        <img src="/Web-Development_Full_Course/Image_Files/MyGearPageImages/ramaAata.webp" alt="Camera_image">
+                    </div>
+                    <div class="div2">
+                        <h2>My Studio Camer</h2>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Praesentium minima nemo laborum eligendi iure vero facere maxime consequatur, quam ut ab totam assumenda suscipit iusto nihil modi minus? Fugiat unde odio nulla dolorum maxime fuga sequi ipsa cum maiores excepturi sapiente neque vel sint voluptatem dolores quia fugit, quis reiciendis explicabo esse? Modi porro quis ad exercitationem officiis eligendi adipisci.
+                        </p>
+                        <button>View on Amazon &#8608;</button>
+                    </div>
+                </div>
+                <div class="box box3">
+                    <div class="div1">
+                        <img src="/Web-Development_Full_Course/Image_Files/MyGearPageImages/motherboarMsi.webp" alt="Camera_image">
+                    </div>
+                    <div class="div2">
+                        <h2>My Studio Camer</h2>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Praesentium minima nemo laborum eligendi iure vero facere maxime consequatur, quam ut ab totam assumenda suscipit iusto nihil modi minus? Fugiat unde odio nulla dolorum maxime fuga sequi ipsa cum maiores excepturi sapiente neque vel sint voluptatem dolores quia fugit, quis reiciendis explicabo esse? Modi porro quis ad exercitationem officiis eligendi adipisci.
+                        </p>
+                        <button>View on Amazon &#8608;</button>
+                    </div>
+                </div>
+                
+            </div>
+            <div class="Section1Row3 Rows">
+                <div class="box box1">
+                    <div class="div1">
+                        <img src="/Web-Development_Full_Course/Image_Files/MyGearPageImages/psuAntec.webp" alt="Camera_image">
+                    </div>
+                    <div class="div2">
+                        <h2>My Studio Camer</h2>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Praesentium minima nemo laborum eligendi iure vero facere maxime consequatur, quam ut ab totam assumenda suscipit iusto nihil modi minus? Fugiat unde odio nulla dolorum maxime fuga sequi ipsa cum maiores excepturi sapiente neque vel sint voluptatem dolores quia fugit, quis reiciendis explicabo esse? Modi porro quis ad exercitationem officiis eligendi adipisci.
+                        </p>
+                        <button>View on Amazon &#8608;</button>
+                    </div>
+                </div>
+                <div class="box box2 extra">
+                    <div class="div1">
+                        <img src="/Web-Development_Full_Course/Image_Files/MyGearPageImages/ramaAata.webp" alt="Camera_image">
+                    </div>
+                    <div class="div2">
+                        <h2>My Studio Camer</h2>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Praesentium minima nemo laborum eligendi iure vero facere maxime consequatur, quam ut ab totam assumenda suscipit iusto nihil modi minus? Fugiat unde odio nulla dolorum maxime fuga sequi ipsa cum maiores excepturi sapiente neque vel sint voluptatem dolores quia fugit, quis reiciendis explicabo esse? Modi porro quis ad exercitationem officiis eligendi adipisci.
+                        </p>
+                        <button>View on Amazon &#8608;</button>
+                    </div>
+                </div>
+                <div class="box box3 extra">
+                    <div class="div1">
+                        <img src="/Web-Development_Full_Course/Image_Files/MyGearPageImages/case.webp" alt="Camera_image">
+                    </div>
+                    <div class="div2">
+                        <h2>My Studio Camer</h2>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Praesentium minima nemo laborum eligendi iure vero facere maxime consequatur, quam ut ab totam assumenda suscipit iusto nihil modi minus? Fugiat unde odio nulla dolorum maxime fuga sequi ipsa cum maiores excepturi sapiente neque vel sint voluptatem dolores quia fugit, quis reiciendis explicabo esse? Modi porro quis ad exercitationem officiis eligendi adipisci.
+                        </p>
+                        <button>View on Amazon &#8608;</button>
+                    </div>
+                </div>
+                
+            </div>
+            <!-- <div class="Section1Row4 Rows">
+                
+            </div> -->
+        </div>
+        <div class="sectionDiv sectionDiv3">
+            <h2>🛋 Ergonomics</h2>
+            <div class="Section1Row1 Rows">
+                <div class="box box1">
+                    <div class="div1">
+                        <img src="/Web-Development_Full_Course/Image_Files/MyGearPageImages/table.webp" alt="Camera_image">
+                    </div>
+                    <div class="div2">
+                        <h2>My Studio Camer</h2>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Praesentium minima nemo laborum eligendi iure vero facere maxime consequatur, quam ut ab totam assumenda suscipit iusto nihil modi minus? Fugiat unde odio nulla dolorum maxime fuga sequi ipsa cum maiores excepturi sapiente neque vel sint voluptatem dolores quia fugit, quis reiciendis explicabo esse? Modi porro quis ad exercitationem officiis eligendi adipisci.
+                        </p>
+                        <button>View on Amazon &#8608;</button>
+                    </div>
+                </div>
+                <div class="box box2">
+                    <div class="div1">
+                        <img src="/Web-Development_Full_Course/Image_Files/MyGearPageImages/chair.webp" alt="Camera_image">
+                    </div>
+                    <div class="div2">
+                        <h2>My Studio Camer</h2>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Praesentium minima nemo laborum eligendi iure vero facere maxime consequatur, quam ut ab totam assumenda suscipit iusto nihil modi minus? Fugiat unde odio nulla dolorum maxime fuga sequi ipsa cum maiores excepturi sapiente neque vel sint voluptatem dolores quia fugit, quis reiciendis explicabo esse? Modi porro quis ad exercitationem officiis eligendi adipisci.
+                        </p>
+                        <button>View on Amazon &#8608;</button>
+                    </div>
+                </div>
+                <div class="box box3">
+                    <div class="div1">
+                        <img src="/Web-Development_Full_Course/Image_Files/MyGearPageImages/rest.webp" alt="Camera_image">
+                    </div>
+                    <div class="div2">
+                        <h2>My Studio Camer</h2>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Praesentium minima nemo laborum eligendi iure vero facere maxime consequatur, quam ut ab totam assumenda suscipit iusto nihil modi minus? Fugiat unde odio nulla dolorum maxime fuga sequi ipsa cum maiores excepturi sapiente neque vel sint voluptatem dolores quia fugit, quis reiciendis explicabo esse? Modi porro quis ad exercitationem officiis eligendi adipisci.
+                        </p>
+                        <button>View on Amazon &#8608;</button>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </div>
 </body>
 </html>
